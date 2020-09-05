@@ -1,0 +1,5 @@
+baseURL = "https://erik.wiffin.com"
+languageCode = "en-us"
+title = "erik.wiffin.com"
+theme = "pickles"
+publishDir = "docs"
