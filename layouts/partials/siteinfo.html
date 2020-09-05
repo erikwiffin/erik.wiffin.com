@@ -1,0 +1,16 @@
+{{ if or ( $.Param "avatar" ) ( $.Param "author" ) ( $.Param "bio" ) ( $.Param "contact" ) }}
+<aside class="p-author">
+  {{ with ($.Param "avatar") }}
+  <div class="c-avatar p-author__avatar">
+    <img alt="Author Avatar" src="{{ . }}" />
+  </div>
+  {{ end }}
+  {{ if or ( $.Param "bio" ) }}
+  <div class="p-author__body">
+    {{ with ($.Param "bio") }}
+    <p>{{ . | safeHTML }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+</aside>
+{{ end }}

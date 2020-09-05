@@ -1,0 +1,20 @@
+#baseURL: "https://erik.wiffin.com/"
+baseURL: "https://erikwiffin.github.io/erik.wiffin.com/"
+languageCode: "en-us"
+title: "erik.wiffin"
+theme: "pickles"
+publishDir: "docs"
+Copyright: |
+  &copy; Erik Wiffin 2020.
+params:
+  author: "Erik Wiffin"
+  bio: |
+    My name is Erik Wiffin.
+    I am a senior software engineer at <a href="https://devetry.com/">Devetry</a>.
+    If you'd like us to help solve your software problems, <a href="https://devetry.com/schedule-a-call/">drop us a line</a>.
+    If you'd like to contact me directly, you can reach me at <a href="mailto:erik.wiffin@gmail.com">erik.wiffin@gmail.com</a>.
+  contact: "mailto:erik.wiffin@gmail.com"
+  custom_css:
+    - "css/custom.css"
+  github: "erikwiffin"
+  linkedin: "erikwiffin"
