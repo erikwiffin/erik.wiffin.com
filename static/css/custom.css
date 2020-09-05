@@ -89,4 +89,13 @@
      max-width: inherit;
      margin-left: inherit;
  }
+
+  .l-main > aside.p-author {
+    position: inherit;
+    width: inherit;
+    margin-top: inherit;
+  }
+  .l-main > aside.p-author .p-author__body {
+    padding: 0;
+  }
 }
