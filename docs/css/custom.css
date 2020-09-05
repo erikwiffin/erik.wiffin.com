@@ -1,0 +1,92 @@
+/**
+ * Layout
+ */
+.l-main {
+    max-width: 1024px;
+}
+.l-main .p-list-article header,
+.l-main .p-list-article section,
+.l-main .p-article section,
+.l-main .p-article footer {
+    max-width: 720px;
+    margin-left: auto;
+}
+
+/**
+ * About Me
+ */
+.l-main > aside.p-author {
+  position: absolute;
+  width: 284px;
+  margin-top: 0;
+}
+.l-main > aside.p-author::before {
+  content: none;
+}
+
+/**
+ * Meta
+ */
+.l-main section.p-article__meta {
+  position: absolute;
+  margin-top: 20px;
+  width: 284px;
+  color: #999;
+}
+.l-main section.p-article__meta a {
+  color: #999;
+}
+.l-main section.p-article__meta a:hover {
+  color: #175081;
+}
+.l-main section.p-article__meta .c-links a {
+  color: #999;
+  border-color: #999;
+}
+.l-main section.p-article__meta .c-links a:hover {
+  color: #000;
+  border-color: #000;
+  background: none;
+}
+
+/**
+ * Tags
+ */
+.l-main section.p-article__meta .c-tag {
+  font-size: 1em;
+  margin: 0 3px;
+}
+.l-main section.p-article__meta .c-tag:first-child {
+  margin-left: 0;
+}
+.l-main section.p-article__meta .c-tag:last-child {
+  margin-right: 0;
+}
+.l-main section.p-article__meta .c-tag::before {
+  content: none;
+}
+
+/**
+ * Article
+ */
+.l-main .p-article h1 {
+  border-bottom: 2px solid #555;
+}
+
+/**
+ * Responsive <1024px
+ */
+@media (max-width: 1024px) {
+  .l-main section.p-article__meta {
+    position: inherit;
+    width: inherit;
+  }
+
+ .l-main .p-list-article header,
+ .l-main .p-list-article section,
+ .l-main .p-article section,
+ .l-main .p-article footer {
+     max-width: inherit;
+     margin-left: inherit;
+ }
+}
