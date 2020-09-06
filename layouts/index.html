@@ -1,5 +1,20 @@
 {{ partial "header.html" . }}
-{{ partial "siteinfo.html" . }}
+<aside class="p-author">
+  {{ with ($.Param "avatar") }}
+  <div class="c-avatar p-author__avatar">
+    <img alt="Author Avatar" src="{{ . }}" />
+  </div>
+  {{ end }}
+  <div class="p-author__body">
+    <p>
+      <strong>Erik Wiffin</strong><br />
+      Senior Software Engineer<br />
+      Living in Colorado<br />
+      Working at <a href="https://devetry.com">Devetry</a><br />
+    </p>
+    {{ partial "link.html" . }}
+  </div>
+</aside>
 
 {{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Type" "posts") ".Params.hidden" "!=" "true" )).Pages }}
   {{if ne $index 0 }}
