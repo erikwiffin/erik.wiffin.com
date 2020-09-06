@@ -1,5 +1,5 @@
-#baseURL: "https://erik.wiffin.com/"
-baseURL: "https://erikwiffin.github.io/erik.wiffin.com/"
+baseURL: "https://erik.wiffin.com/"
+#baseURL: "https://erikwiffin.github.io/erik.wiffin.com/"
 languageCode: "en-us"
 title: "erik.wiffin"
 theme: "pickles"
@@ -14,7 +14,7 @@ params:
     If you'd like us to help solve your software problems, <a href="https://devetry.com/schedule-a-call/">drop us a line</a>.
     If you'd like to contact me directly, you can reach me at <a href="mailto:erik.wiffin@gmail.com">erik.wiffin@gmail.com</a>.
   contact: "mailto:erik.wiffin@gmail.com"
-  avatar: "/erik.wiffin.com/images/headshot.jpg"
+  avatar: "/images/headshot.jpg"
   custom_css:
     - "css/custom.css"
   github: "erikwiffin"

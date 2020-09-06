@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on erik.wiffin</title>
-    <link>https://erikwiffin.github.io/erik.wiffin.com/posts/</link>
+    <link>https://erik.wiffin.com/posts/</link>
     <description>Recent content in Posts on erik.wiffin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
 </copyright>
     <lastBuildDate>Sat, 05 Sep 2020 14:23:35 -0600</lastBuildDate>
     
-	<atom:link href="https://erikwiffin.github.io/erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Missing Manual - Professionalism Among Agency Developers</title>
-      <link>https://erikwiffin.github.io/erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
+      <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
       <pubDate>Sat, 05 Sep 2020 14:23:35 -0600</pubDate>
       
-      <guid>https://erikwiffin.github.io/erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
+      <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
       <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
     </item>
     
