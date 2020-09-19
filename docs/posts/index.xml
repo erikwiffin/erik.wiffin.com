@@ -8,10 +8,19 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2020.
 </copyright>
-    <lastBuildDate>Sat, 05 Sep 2020 14:23:35 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Story Points As Effort &#43; Uncertainty</title>
+      <link>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</guid>
+      <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
+    </item>
     
     <item>
       <title>The Missing Manual - Professionalism Among Agency Developers</title>

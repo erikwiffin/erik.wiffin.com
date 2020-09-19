@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>The Missing Manual - Professionalism Among Agency Developers</title>
-  <meta property="og:title" content="The Missing Manual - Professionalism Among Agency Developers" />
-  <meta name="twitter:title" content="The Missing Manual - Professionalism Among Agency Developers" />
+  <title>Story Points As Effort &#43; Uncertainty</title>
+  <meta property="og:title" content="Story Points As Effort &#43; Uncertainty" />
+  <meta name="twitter:title" content="Story Points As Effort &#43; Uncertainty" />
   
 
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/" />
+  <meta property="og:url" content="https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/" />
 
   
   <meta property="og:image" content="https://erik.wiffin.com/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" />
@@ -68,7 +68,7 @@ if (!doNotTrack) {
 
 <article class="p-article">
   <header>
-    <h1>The Missing Manual - Professionalism Among Agency Developers</h1>
+    <h1>Story Points As Effort &#43; Uncertainty</h1>
   </header>
   
   <section id="js-article-meta" class="p-article__meta">
@@ -76,8 +76,8 @@ if (!doNotTrack) {
       
         <div class="c-time">
           Posted on
-<time datetime="2020-09-05T14:23:35-06:00">
-  Sep 5, 2020
+<time datetime="2020-09-19T00:00:00Z">
+  Sep 19, 2020
 </time>
 
         </div>
@@ -86,12 +86,12 @@ if (!doNotTrack) {
     <div>
       
       
-      <a href="https://erik.wiffin.com/tags/books" class="c-tag">Books</a>
+      <a href="https://erik.wiffin.com/tags/agile" class="c-tag">Agile</a>
       
       
       &bull;
       
-      <a href="https://erik.wiffin.com/tags/consulting" class="c-tag">Consulting</a>
+      <a href="https://erik.wiffin.com/tags/estimating" class="c-tag">Estimating</a>
       
     </div>
     
@@ -146,28 +146,42 @@ if (!doNotTrack) {
 
   </section>
   <section id="js-article" class="p-article__body">
-    <h3 id="what-does-it-mean-to-be-a-professional-software-developer-at-an-agency">What does it mean to be a professional software developer at an agency?</h3>
-<p>If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now. As it happens, I work at a software agency, and have yet to spend more than six months on a single project. At work, we’ve been running a book club, and this discrepancy has made it hard to find books that feel relevant to our situation.</p>
-<p>It’s not that the advice in the classics is wrong. They give you the tools to build a coherent mental model of what good software development looks like, and a <em>lingua franca</em> to communicate that mental model with other developers. Where they start to fall short is around issues of time - both time to implement and how long the final product is expected to last and be maintained. Because of these differences, the principles that inform my sense of craftsmanship and professionalism don’t quite match what I find in these books. Many of my priorities share the same names, but they’re definitely in a different order, and some need a few tweaks to their definitions.</p>
-<p>That being said, I’ve been on the other side of the fence. Most of my career has been at product companies, and I’ve implemented my fair share of factories, strategies, and repositories. My goal here is to clarify my thinking on what Good Work looks like in my new environment. To that end, I’ll describe a couple common priorities (maintainability, reusability, orientation, and documentation) and how they manifest differently between the two worlds.</p>
-<h3 id="maintainability">Maintainability</h3>
-<p>When listing qualities of a well designed codebase, maintainability is typically priority number one. Unless they’re carefully managed, adding new features to aging applications can take longer and longer. At a product company, this trend results in a stale, outdated application that no one wants to use. At an agency, a slowdown in velocity can start to feel like a bait and switch to the client. The main difference between the two is that the timelines are different. While a successful product team can work on the same codebase for years, most agency contracts have a finish line. A point where you stop working, put down your keyboard, and tell the client: “call me when you need a v2.”</p>
-<p>So maintainability means something different. It means that when the client calls you in a panic about a production outage, the fix is simple. Or ideally, that the client never needs to call you at all. It means that when the retainer or follow-up contract is signed, this project isn’t a punishment for whoever it gets assigned to. The means to accomplish it are also different. <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> becomes the guiding, if not the <em>only</em> principle for software architecture. No more soaring cathedrals with flying buttresses of brilliant insight - simple, understandable building blocks lay the foundation for delivering on time and on budget.</p>
-<p>Dependencies are an area of maintenance where all the same trade-offs exist between both environments, but they cut so much deeper at an agency. Saving time using an already existing library becomes that much more critical, but the update burden can be that much more painful. It’s easier to keep up to date with rolling changes to a dependency if they’re addressed as they come in. What’s more likely to happen on a contract-based project is that no updates will happen for over a year, and suddenly, all the breaking changes need to be resolved at once to capture a new feature or security update. Think carefully about your dependencies, and use them as the powerful tool they are.</p>
-<h3 id="reusability">Reusability</h3>
-<p>Again, reusability is still a priority, but it starts to <em>mean</em> something different. One of the things that distinguish an agency is that your company and your team don’t necessarily own the code that you write. Instead, that ownership is assigned to the client. As I mentioned in the previous section, project timelines are shorter, and combining those two facts means that opportunities to strictly reuse code are fewer. Instead, reusability implies the reusability of skills. Identifying common skills between clients and projects, and developing those skills can have a significant payoff down the road.</p>
-<p>Some of the skills that transfer are technical - how to get the most out of SQL, structure a redux app, work with, and avoid the pitfalls of docker. The caveat with technical skills is that unless you’re reusing the same tools between projects (better hope the client doesn’t already have a codebase they want you to work on), it’s easy to end up with a library of tools you’ve only ever used once. While a few technologies have stood the test of time (SQL comes to mind), identifying common patterns and concepts (event sourcing, virtualization) will pay off better in the long run.</p>
-<p>Soft skills will generally pay off more as you transition between clients and projects. Never mind that client communication is now a core function of your job; there has never been a project that wouldn’t have benefitted from better requirements gathering, better estimates, better documentation. Additionally, responsibilities that traditionally fall to a project manager are more likely to end up on your plate. Some projects won’t have one, or someone from the client organization will fill the role, and your ability to plan a sprint, proactively identify and eliminate blockers, and track overall project progress will come in handy.</p>
-<p>Investing in learning reusable skills will pay off more than planning for all the opportunities to reuse a class or function that never come. That’s not to say that modular code isn’t still a good thing, but maybe something like the <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">Rule of Three</a> should come into play even more than it otherwise would.</p>
-<h3 id="orientation">Orientation</h3>
-<p>The ability to rapidly orient a new developer to a codebase is undoubtedly a feature that no one at a product company would consider a <em>bad</em> thing. After all, they <em>do</em> hire new developers from time to time, integrate members from other teams, or sometimes put things on pause while a different project needs some attention. But at an agency, this is almost priority number one. The non-permanence of an agency developer is practically a part of the definition. At product companies, it can be acceptable to take <a href="https://www.quora.com/How-much-time-after-joining-do-software-developers-typically-take-to-start-being-productive/answer/William-Hembree-3">as long as three months</a> for a new FTE to be considered “productive.” If I’m working on a 6-month contract, that doesn’t work.</p>
-<p>There are two facets of orientation that should be addressed separately. First, is the skill of an individual developer orienting themselves to an arbitrary codebase. Mostly this will come with experience, but knowing common software patterns and various tools and techniques to explore a codebase are helpful here. Further, knowing the right questions to ask non-technical domain experts and the humility to look ignorant in front of strangers by asking those questions is essential. Secondly, leaving a codebase in a place where other developers can rapidly orient themselves is probably the highest mark of professionalism. Is there documentation? Is there <em>useful</em> documentation? Are there tests? Are they <em>the right</em> tests? Does the code follow the popular style and idioms of the domain and language? Very frequently, the next developer to touch a project will have no one to give them a welcoming tour when they get started.</p>
-<h3 id="documentation">Documentation</h3>
-<p>A subset of orientation, but worth mentioning on its own merits, is documentation. Again, no one at a product company is going to tell you documentation is a bad thing, but you will almost always have a human being you can ask questions, and that knocks written documentation down several pegs. As such, it can be a chore that no one ever gets around to or the busy work that gets given to an intern (so it contains only the information obvious to an intern). Good documentation can be a lifesaver when you’re handed a project where the original developers left three years ago, and by the way, it’s broken, and we need you to fix it by tomorrow.</p>
-<p>This leads to the obvious question - what is good documentation? It’s certainly not measured in quantity. If I can’t read all of it before my deadline, it’s doing me no good at all. For me, the most important thing is clear and concise startup instructions. What do I need to do to get this codebase running in a development environment? What do I need to do to build and deploy it to a production environment? For some classes of problems, this could be the only information I will ever need. If the documentation needs to go further, I have a strong preference for “executable documentation.” This is anything beyond plain text that can be verified as accurate by actually running it. Validation schemas, expected and typical use cases in automated tests, even a well structured CI pipeline can be considered executable documentation. These guard against the common documentation failure mode - written once, and never touched again, even as the code moves on.</p>
-<p>A side-benefit to documentation is that one of the best ways to understand something is to go through the arduous process of describing it with words. This benefit is the motivation behind Amazon’s famous requirement of <a href="https://www.cnbc.com/2018/04/23/what-jeff-bezos-learned-from-requiring-6-page-memos-at-amazon.html">six-page written documents</a> instead of PowerPoints. Putting words to fuzzily defined concepts will force mental clarity and potentially expose areas of conflicting logic or incorrect assumptions.</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>These ideas would all resonate with long-term developers at a product company seeking to be described as professional. But I think it is unlikely that such a developer would consider them the most significant ideas. Or define them in quite the same way. I’m calling on other agency and contract developers - we need books too. We need to commiserate on the shared experience of being called in to rescue a codebase that had previously been sourced to the lowest bidder. We need to share strategies for grokking the mess left behind by the employee who automated their entire job in excel that we’re expected to productionize across the whole team. We need a shared definition of professionalism, and a library to back it up.</p>
+    <p>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful. Between these two extremes is where most of us end up; balancing the tradeoffs between accuracy and impracticality. Story points, and the various ceremonies that surround them, are an attempt at striking that balance.</p>
+<p>Software developers often use story points within some variation of agile framework to communicate their estimates to their project managers and fellow teammates. Despite their pervasiveness in the industry, story points have no consistent definition, and there is often ambiguity about what they represent. To make sure we’re all on the same page, I define them as:</p>
+<blockquote>
+<p>A relative measure of the estimated amount of effort required to complete a task.</p>
+</blockquote>
+<p>The word “relative” is doing a lot of work here. A senior developer may complete a task in half the <em>time</em> it takes a junior developer, but this shouldn’t change the estimation of <em>effort</em>. Because of this relativity, story points become most useful in aggregate. There, they are used to describe a team’s <em>velocity</em> - the number of story points a <em>team</em> can be expected to accomplish over a <em>sprint</em> (usually a two week period).</p>
+<p>Another word doing a lot of work in that definition is “estimated.” As I mentioned at the start, an estimate will never be perfect and will always carry some level of “uncertainty.” Unfortunately for story points, they are a single number and have no built-in mechanism for conveying that uncertainty. A nod to this drawback is found in the commonly used practice of only assigning story points from values in the Fibonacci sequence. 1, 2, 3, 5, 8, 13, etc. By omitting 4s and 6s, we acknowledge that our estimates are not precise enough to distinguish among the numbers surrounding five.</p>
+<p>While acknowledging uncertainty is easy to agree to in theory, it is often forgotten in practice. High point values can become dumping grounds for significant (but well defined) work, and small values can describe the “best-case scenario” of a volatile undertaking. In my own estimating, I try to stick to the agreed-upon precision, and measure my story points as “effort + uncertainty” as follows:</p>
+<ul>
+<li>1 point. I pretty much have the entire task written in my mind; I only need to type it out.</li>
+<li>2 points. Similar, but the amount of work to be done exceeds my working memory. I can’t keep the whole thing in my head at once, so I may be missing something.</li>
+<li>3 points. Some unknown element has been introduced. Documentation will need to be read, or multiple avenues will need to be explored.</li>
+<li>5 points. A significant unknown element is involved. Either documentation doesn’t exist, or the task involves components (or people) that have a reputation for being difficult.</li>
+<li>8 points. Uncertainty levels are such that I’m basically asking for a full sprint and not even promising to have a deliverable at the end. I will need to do some research, and I don’t even know where to start.</li>
+</ul>
+<p>Plotting these point values against my typical velocity looks something like this:</p>
+<p><img src="/images/story-points-quadrants.png" alt="Graph of story points with error bars"></p>
+<p>Conveniently, this fits nicely into a four-quadrant graph.</p>
+<ul>
+<li>Knowns. There is a known amount of work involved, with very few surprises - generally, a continuation of existing work.</li>
+<li>Known unknowns. There is an unknown amount of work, but the <em>kind</em> of work is known. Usually, this involves adding new functionality, particularly with external integration points.</li>
+<li>Unknown unknowns. Not only is the effort required a mystery, but it’s hard to know where to start. These show up more frequently at the start of a new project and are the most likely to blow up a timeline.</li>
+<li>Some unnamed fourth quadrant with nothing in it.</li>
+</ul>
+<p>I have found this to be a reliable framework for delivering estimates that are of consistent accuracy. It also provides a useful distinction in <em>meaning</em> between different story point values. A five is not merely a collection of ones. However, to take advantage of this framework requires that the tasks themselves have the appropriate balance of size and uncertainty.</p>
+<h4 id="5--1--1--1--1--1">5 != 1 + 1 + 1 + 1 + 1</h4>
+<p>How should we handle a big task full of a bunch of clearly defined work? Break it up. In addition to the new collection of single point tasks aligning themselves more closely with their implied precision, this conveys several other benefits. Namely:</p>
+<ul>
+<li>It’s satisfying to finish what I’m working on at the end of the day and not have to pick it back up and figure out where I was the next day.</li>
+<li>No one wants to code review a week’s worth of work, especially with the line count of a week’s worth of simple work.</li>
+<li>It’s an opportunity to catch unknowns faster. If the first task takes two days instead of one, what happened? Will the rest take twice as long too?</li>
+</ul>
+<h4 id="bimodal-probability-distribution">Bimodal probability distribution</h4>
+<p>Sometimes I see a task that I know will take one day or one month, but almost definitely not one week. An example would be doing some analysis on a large dataset, right on the cusp of what a single machine can accomplish. If it fits in memory, it will be a straightforward process; I can use the tools with which I am most familiar and iterate rapidly. If it doesn’t, then I need to implement a distributed system. Results will come more slowly, and I’ll need to add managing the computation cluster to my todo list. The solution here is to create a new task - a timeboxed research task to determine which of the two paths I’ll be going down. Once I’ve eliminated one of the two “modes”, I can feel free to estimate the remaining work using more normal probability curves.</p>
+<h4 id="some-final-thoughts">Some final thoughts</h4>
+<p>What I’ve just described is a tiny slice of what goes into putting together an estimate. I’ve explained my thought process as an individual estimating a single task. In reality, story point estimates are a dialogue with the rest of your team and take in the rest of the project as context. That dialogue is crucial to flush out hidden requirements and ensure that everyone agrees on the task’s entire scope. Finally, one of the most significant benefits of generating and tracking story points is revisiting them once the task is complete. Using past estimates to calibrate future ones is a form of deliberate practice that will inevitably improve your skill over time.</p>
 
   </section>
   <footer>
@@ -176,11 +190,11 @@ if (!doNotTrack) {
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
+          <a href="https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/">Older</a>
           
         </div>
       </div>

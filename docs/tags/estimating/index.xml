@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>erik.wiffin</title>
-    <link>https://erik.wiffin.com/</link>
-    <description>Recent content on erik.wiffin</description>
+    <title>Estimating on erik.wiffin</title>
+    <link>https://erik.wiffin.com/tags/estimating/</link>
+    <description>Recent content in Estimating on erik.wiffin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2020.
 </copyright>
     <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erik.wiffin.com/tags/estimating/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       
       <guid>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</guid>
       <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
-    </item>
-    
-    <item>
-      <title>The Missing Manual - Professionalism Among Agency Developers</title>
-      <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
-      <pubDate>Sat, 05 Sep 2020 14:23:35 -0600</pubDate>
-      
-      <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
-      <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
     </item>
     
   </channel>
