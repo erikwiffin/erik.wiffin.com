@@ -8,10 +8,20 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2020.
 </copyright>
-    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design Plans: A Reference</title>
+      <link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
+      <description>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.
+What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.</description>
+    </item>
     
     <item>
       <title>Story Points As Effort &#43; Uncertainty</title>
