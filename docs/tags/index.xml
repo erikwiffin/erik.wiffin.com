@@ -14,6 +14,24 @@
     
     
     <item>
+      <title>data</title>
+      <link>https://erik.wiffin.com/tags/data/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data engineering</title>
+      <link>https://erik.wiffin.com/tags/data-engineering/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>design</title>
       <link>https://erik.wiffin.com/tags/design/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
@@ -32,11 +50,38 @@
     </item>
     
     <item>
+      <title>pandas</title>
+      <link>https://erik.wiffin.com/tags/pandas/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>programming</title>
       <link>https://erik.wiffin.com/tags/programming/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://erik.wiffin.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://erik.wiffin.com/tags/python/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reference</title>
+      <link>https://erik.wiffin.com/tags/reference/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/tags/reference/</guid>
       <description></description>
     </item>
     

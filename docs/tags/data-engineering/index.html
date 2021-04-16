@@ -4,28 +4,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Design Plans: A Reference</title>
-  <meta property="og:title" content="Design Plans: A Reference" />
-  <meta name="twitter:title" content="Design Plans: A Reference" />
+  <title>data engineering</title>
+  <meta property="og:title" content="data engineering" />
+  <meta name="twitter:title" content="data engineering" />
   
 
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/posts/design-plans-a-reference/" />
+  <meta property="og:url" content="https://erik.wiffin.com/tags/data-engineering/" />
 
-  
-  <meta property="og:image" content="https://erik.wiffin.com/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" />
-  <meta name="twitter:image" content="https://erik.wiffin.com/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" />
   
   <meta name="twitter:card" content="summary" />
 
   
 
   
-  <meta property="og:type" content="article" />
-  
+  <meta property="og:type" content="website" />
   
   
   <meta name="generator" content="Hugo 0.74.3" />
@@ -58,165 +54,49 @@ if (!doNotTrack) {
 
   <header class="l-header">
     
-    <p class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></p>
+    <h1 class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></h1>
     
     
   </header>
 
   <main id="main" class="l-main">
 
+<h2 class="c-title p-tag-title">data engineering</h2>
 
-<article class="p-article">
+
+
+
+<article class="c-article p-list-article">
   <header>
-    <h1>Design Plans: A Reference</h1>
+    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/data-engineering-for-other-people/">Data Engineering for Other People</a></h2>
+    
   </header>
-  
-  <section id="js-article-meta" class="p-article__meta">
-    <div>
-      
-        <div class="c-time">
-          Posted on
-<time datetime="2020-10-13T00:00:00Z">
-  Oct 13, 2020
-</time>
-
-        </div>
-      
-    </div>
-    <div>
-      
-      
-      <a href="https://erik.wiffin.com/tags/design" class="c-tag">design</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/move-slow-to-go-fast" class="c-tag">move slow to go fast</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/programming" class="c-tag">programming</a>
-      
+  <section>
+    <div class="c-article__summary">
+      Or: Why is this software engineer being such a diva? So you&rsquo;ve got some data. In my case, I&rsquo;ve been keeping track of how successful my taco truck has been.
+Nothing crazy, a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.
     </div>
     
-<ul class="c-links">
-  
-  
-  
-  
-  
-  <li class="c-links__item">
-    <a href="https://github.com/erikwiffin" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>github</title>
-        <use xlink:href="#icon-github"></use>
-      </svg>
-    </a>
-  </li>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="c-links__item">
-    <a href="https://linkedin.com/in/erikwiffin" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>linkedin</title>
-        <use xlink:href="#icon-linkedin"></use>
-      </svg>
-    </a>
-  </li>
-  
-  
-  
-  <li class="c-links__item">
-    <a href="mailto:erik.wiffin@gmail.com" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>email</title>
-        <use xlink:href="#icon-mail"></use>
-      </svg>
-    </a>
-  </li>
-  
-</ul>
-
-
+    <a href="https://erik.wiffin.com/posts/data-engineering-for-other-people/" class="c-article__btn p-list-article__btn">Read more</a>
   </section>
-  <section id="js-article" class="p-article__body">
-    <p>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is <em>precisely the wrong thing to do</em>. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.</p>
-<h3 id="what-is-a-design-plan">What is a design plan?</h3>
-<p>A design plan is a short document describing a proposed implementation of a new feature or refactoring. They’re a developer’s equivalent of an artist’s sketch or a writer’s outline. A good design plan will cover three things:</p>
-<ul>
-<li><strong>What needs to change?</strong> Be specific here, and identify which files/modules/functions/classes will need to change.</li>
-<li><strong>What is the flow of information?</strong> Having identified the parts of the codebase that will need to change, how will information need to be passed between them? It’s useful at this step to try and identify the minimum requirements for each piece to fulfill its responsibilities.</li>
-<li><strong>What is still unknown?</strong> Even with a plan, some things can’t be known until they are implemented. Examples of these unknowns are things like performance characteristics - is the simple algorithm fast enough, or will we need to do something more complicated. Third-party libraries and APIs can also present as unknowns.</li>
-</ul>
-<h3 id="why-write-one">Why write one?</h3>
-<p>Design plans are a manifestation of the principle “move slow to go fast”. Work done carefully and deliberately will be more efficient in the long run than the alternative. The act of putting together a design plan forces you to stop and think. With a better understanding of the problem and a road map forward, you can avoid writing and rewriting the same code as each path turns into a dead end.</p>
-<p>They are also an opportunity to get an early check-in from coworkers. Someone else may have a better sense of this part of the codebase or know a more efficient way to solve the same problem. By documenting your planned approach, you can share it with them <em>before</em> building something you’ll only have to take apart later.</p>
-<h3 id="what-is-it-not">What is it not?</h3>
-<p>It’s not pseudo-code. It doesn’t need to be so granular that you cover every operation that your code will eventually call.</p>
-<p>It’s not a high-level project architecture. Those are good too! But good design isn’t something to be set aside once a project is underway.</p>
-<h3 id="an-example">An Example:</h3>
-<p>In this example, I am pretending that I have an existing TODO List application written with React/Redux. I’m planning to add a feature where some TODO items will be reminders. They’ll look pretty similar to regular TODO items, but if I’m logged into the app when they reach their deadline, I’ll get some kind of alert.</p>
-<h4 id="view">View</h4>
-<ul>
-<li><strong>Updated</strong> - TodoItem.jsx - Show the reminder time.</li>
-<li><strong>Updated</strong> - AddTodoForm.jsx - Add an optional form item for reminder time.</li>
-<li><strong>New</strong> - ReminderAlert.jsx - This is the component that will show alerts when reminders reach their deadline. It will need to:
-<ul>
-<li>componentDidMount - set a configurable interval to check if any reminders have reached their deadline since the last time we checked.</li>
-<li>componentWillUnmount - make sure to clear the interval to prevent memory leaks</li>
-<li>If a reminder has reached its deadline, add it to an array in the component’s state.</li>
-<li>Render any reminders in the state array. If the user dismisses a reminder, remove it from the array.</li>
-</ul>
-</li>
-</ul>
-<h4 id="redux">Redux</h4>
-<ul>
-<li><strong>Updated</strong> - The SAVE_TODO action will need to include the optional reminder time.</li>
-<li><strong>Updated</strong> - Add a selector for reminders so that they can be passed to the new ReminderAlert component.</li>
-</ul>
-<h4 id="data-flow">Data Flow</h4>
-<p><img src="/images/design-plan-data-flow.png" alt="Data Flow Diagram"></p>
-<h4 id="unknowns">Unknowns</h4>
-<ul>
-<li>What is the correct interval period? 1 second? More/less?</li>
-<li>What happens to intervals if the computer goes to sleep? Are they batched up or skipped?</li>
-</ul>
-<h3 id="conclusion">Conclusion</h3>
-<p>The above plan is pretty rough, and despite describing a non-existent codebase, it didn’t take me long to write. But it describes most of what I’m going to have to do and gives me something to show to my coworker when I go to them and say, “I think my ReminderAlert component is doing too much.”</p>
-<p>I have yet to find any single technique for junior and mid-level developers that will improve code quality as significantly as writing design plans. For senior developers, I have yet to regret writing one and can think of several off-hand that I wish I had written.</p>
-
-  </section>
-  <footer>
-    
-    <nav class="p-pagination c-pagination">
-      <div class="c-pagination__ctrl">
-        <div class="c-pagination__newer">
-          
-          <a href="https://erik.wiffin.com/posts/data-engineering-for-other-people/">Newer</a>
-          
-        </div>
-        <div class="c-pagination__older">
-          
-          <a href="https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/">Older</a>
-          
-        </div>
-      </div>
-    </nav>
-    
+  
+</article>
 
 
-    
+
+<nav class="c-pagination p-pagination">
+  <div class="c-pagination__ctrl">
+    <div class="c-pagination__newer">
+      
+    </div>
+    <div class="c-pagination__older">
+      
+    </div>
+  </div>
+  
+</nav>
+
+
 <aside class="p-author">
   
   <div class="c-avatar p-author__avatar">
@@ -237,8 +117,6 @@ If you'd like to contact me directly, you can reach me at <a href="mailto:erik.w
 </aside>
 
 
-  </footer>
-</article>
   </main>
   
 

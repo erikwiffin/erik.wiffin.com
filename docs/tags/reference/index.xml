@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reference on erik.wiffin</title>
+    <link>https://erik.wiffin.com/tags/reference/</link>
+    <description>Recent content in reference on erik.wiffin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Erik Wiffin 2020.
+</copyright>
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://erik.wiffin.com/tags/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Engineering for Other People</title>
+      <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
+      <description>Or: Why is this software engineer being such a diva? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.
+Nothing crazy, a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
+    </item>
+    
+  </channel>
+</rss>

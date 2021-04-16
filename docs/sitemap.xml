@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://erik.wiffin.com/tags/data/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erik.wiffin.com/tags/data-engineering/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erik.wiffin.com/posts/data-engineering-for-other-people/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erik.wiffin.com/tags/design/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url>
@@ -23,12 +38,27 @@
   </url>
   
   <url>
+    <loc>https://erik.wiffin.com/tags/pandas/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erik.wiffin.com/posts/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://erik.wiffin.com/tags/programming/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erik.wiffin.com/tags/python/</loc>
+    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erik.wiffin.com/tags/reference/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url>
   
