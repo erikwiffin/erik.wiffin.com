@@ -1037,3 +1037,5 @@ So, to keep everyone happy, a couple tips for cleanly formated data:
 + Use a consistent date format. [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) is a fantastic one, but in most cases, consistency is the most important thing.
 + Make sure to trim leading and trailing spaces. They can be hard to spot in excel, but that's where a well made codebook can come in handy.
 + Provide a codebook! They're super helpful for spotting your own errors, but are also useful for someone who doesn't know the data as well as you do to get themselves familiar with your dataset and know what to expect.
+
+Reference files and codebooks can be found [here](https://github.com/erikwiffin/data-engineering-101).
