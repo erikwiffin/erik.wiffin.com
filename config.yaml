@@ -21,3 +21,8 @@ params:
   github: "erikwiffin"
   linkedin: "erikwiffin"
   email: "erik.wiffin@gmail.com"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
