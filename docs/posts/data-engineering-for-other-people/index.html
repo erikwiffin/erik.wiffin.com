@@ -161,20 +161,20 @@ if (!doNotTrack) {
 
   </section>
   <section id="js-article" class="p-article__body">
-    <h3 id="or-why-is-this-software-engineer-being-such-a-diva">Or: Why is this software engineer being such a diva?</h3>
+    <h3 id="or-why-is-this-software-engineer-being-so-difficult">Or: Why is this software engineer being so difficult?</h3>
 <p>So you&rsquo;ve got some data. In my case, I&rsquo;ve been keeping track of how successful my taco truck has been.</p>
 <p><img src="/images/data-engineering-101/taco-sales-xlsx.png" alt="Taco Sales.xlsx"></p>
-<p>Nothing crazy, a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.
+<p>There&rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.
 At this point, I&rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business. I know a little python, and I&rsquo;ve heard it&rsquo;s good at this kind of thing, so I fire up a jupyter notebook and import it into a pandas dataframe.</p>
+<p><a href="https://github.com/erikwiffin/data-engineering-101/blob/main/versions/Taco%20Sales%20-%20v1.xlsx?raw=true">Taco Sales - v1.xlsx</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
 <span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> cm
 
 pd<span style="color:#f92672">.</span>options<span style="color:#f92672">.</span>display<span style="color:#f92672">.</span>max_rows <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>
 
 df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_excel(<span style="color:#e6db74">&#39;./versions/Taco Sales - v1.xlsx&#39;</span>)
-df
-</code></pre></div><div>
-<table border="1" class="dataframe">
+df<span style="color:#f92672">.</span>head()
+</code></pre></div><table class="dataframe" border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -211,50 +211,33 @@ df
       <td>Aurora</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2021-04-12 00:00:00</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Denver</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2021-04-13 00:00:00</td>
+      <th>3</th>
+      <td>4/3</td>
       <td>one</td>
-      <td>7</td>
-      <td>55</td>
-      <td>Denver</td>
+      <td>three</td>
+      <td>five</td>
+      <td>Golden</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>2021-04-14 00:00:00</td>
-      <td>0</td>
+      <th>4</th>
+      <td>2021-04-04 00:00:00</td>
       <td>3</td>
-      <td>5</td>
-      <td>Denver</td>
+      <td>9</td>
+      <td>3</td>
+      <td>Boulder</td>
     </tr>
   </tbody>
 </table>
-</div>
 <p>Wow, that&rsquo;s not what I was expecting.</p>
 <p>Leaving aside the column headings, those dates aren&rsquo;t what I&rsquo;m seeing in Excel at all!</p>
-<p>The usual solution to problems like this is &ldquo;plain text&rdquo;, but Excel files don&rsquo;t work like that at all. Luckily, they can be converted to &ldquo;csv&quot;s, or Comma Separated Values, which are plain text, and can be viewed in a text editor to make sure your data is exactly what you expect it to be. To convert, click &ldquo;save as&rdquo; and then pick &ldquo;CSV&rdquo; from the list of dropdown options. You end up with something you can open in TextEdit that looks like this:</p>
+<p>The usual solution to problems like this is &ldquo;plain text&rdquo;, but Excel files don&rsquo;t work like that at all. Luckily, they can be converted to “csv”s, or Comma Separated Values, which are plain text, and can be viewed in a text editor to make sure your data is exactly what you expect it to be. To convert, click &ldquo;save as&rdquo; and then pick &ldquo;CSV&rdquo; from the list of dropdown options. You end up with something you can open in TextEdit that looks like this:</p>
 <p><img src="/images/data-engineering-101/taco-sales-csv.png" alt="Taco Sales.csv"></p>
 <p>Not exactly the most readable thing in the world, but at least you can see exactly what your data looks like.</p>
 <p>Let&rsquo;s re-import that into pandas.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v1.csv">Taco Sales - v1.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v1.csv&#39;</span>)
-df
-</code></pre></div><div>
-<table border="1" class="dataframe">
+df<span style="color:#f92672">.</span>head()
+</code></pre></div><table class="dataframe" border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -291,42 +274,26 @@ df
       <td>Aurora</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>4/12</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Denver</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>4/13</td>
+      <th>3</th>
+      <td>4/3</td>
       <td>one</td>
-      <td>7</td>
-      <td>55</td>
-      <td>Denver</td>
+      <td>three</td>
+      <td>five</td>
+      <td>Golden</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>4/14</td>
-      <td>0</td>
+      <th>4</th>
+      <td>4/4</td>
       <td>3</td>
-      <td>5</td>
-      <td>Denver</td>
+      <td>9</td>
+      <td>3</td>
+      <td>Boulder</td>
     </tr>
   </tbody>
 </table>
-</div>
 <p>That matches what we see in TextEdit, great!</p>
 <p>Now, that tacos row isn&rsquo;t doing us any favors. Pandas is trying to use it as the &ldquo;header row&rdquo;, but the only useful piece of information in it is the word &ldquo;tacos&rdquo;, and it&rsquo;s pushing our actual column labels into our data. Let&rsquo;s delete that.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v2.csv">Taco Sales - v2.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v2.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 df
 </code></pre></div><div>
@@ -445,7 +412,7 @@ TypeError                                 Traceback (most recent call last)
 TypeError: no numeric data to plot
 </code></pre>
 <p>Oh no!</p>
-<p>If we google this error message, we find that there&rsquo;s a pandas function <code>to_numeric</code> that might help us, but as you can see, that has its own problems.</p>
+<p>If we google this error message, we find a pandas function <code>to_numeric</code> that might help us, but as you can see, that has its own problems.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Beef&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_numeric(df[<span style="color:#e6db74">&#39;Beef&#39;</span>], errors<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;coerce&#39;</span>)
 df[<span style="color:#e6db74">&#39;Chicken&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_numeric(df[<span style="color:#e6db74">&#39;Chicken&#39;</span>], errors<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;coerce&#39;</span>)
 df[<span style="color:#e6db74">&#39;Pork&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_numeric(df[<span style="color:#e6db74">&#39;Pork&#39;</span>], errors<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;coerce&#39;</span>)
@@ -453,11 +420,13 @@ df[<span style="color:#e6db74">&#39;Pork&#39;</span>] <span style="color:#f92672
 df[[<span style="color:#e6db74">&#39;Beef&#39;</span>, <span style="color:#e6db74">&#39;Chicken&#39;</span>, <span style="color:#e6db74">&#39;Pork&#39;</span>]]<span style="color:#f92672">.</span>plot(colormap<span style="color:#f92672">=</span>cm<span style="color:#f92672">.</span>Paired)
 </code></pre></div><p><img src="/images/data-engineering-101/output_9_1.png" alt="png"></p>
 <p>Our chart has holes in it!</p>
-<p>The only way to fix this is to back to the source, and make sure that we consistently write our numbers as numbers, and not as their english equivalent. &ldquo;1&rdquo; not &ldquo;one&rdquo;, &ldquo;0&rdquo; not &ldquo;-&rdquo;!</p>
+<p>The only way to fix this is to back to the source and make sure that we consistently write our numbers as numbers, and not as their English equivalent: <code>&quot;1&quot;</code>, not <code>&quot;one&quot;</code>. <code>&quot;0&quot;</code>, not <code>&quot;-&quot;</code>!</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v3.csv">Taco Sales - v3.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v3.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 df[[<span style="color:#e6db74">&#39;Beef&#39;</span>, <span style="color:#e6db74">&#39;Chicken&#39;</span>, <span style="color:#e6db74">&#39;Pork&#39;</span>]]<span style="color:#f92672">.</span>plot(colormap<span style="color:#f92672">=</span>cm<span style="color:#f92672">.</span>Paired)
 </code></pre></div><p><img src="/images/data-engineering-101/output_11_1.png" alt="png"></p>
-<p>And we should probably do the something similar to the Date column so that we don&rsquo;t see that random &ldquo;April 11&rdquo;.</p>
+<p>And we should probably do something similar to the Date column so that we don&rsquo;t see that random &ldquo;April 11&rdquo;.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v4.csv">Taco Sales - v4.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v4.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 df[[<span style="color:#e6db74">&#39;Beef&#39;</span>, <span style="color:#e6db74">&#39;Chicken&#39;</span>, <span style="color:#e6db74">&#39;Pork&#39;</span>]]<span style="color:#f92672">.</span>plot(colormap<span style="color:#f92672">=</span>cm<span style="color:#f92672">.</span>Paired)
 </code></pre></div><p><img src="/images/data-engineering-101/output_13_1.png" alt="png"></p>
@@ -465,13 +434,14 @@ df[[<span style="color:#e6db74">&#39;Beef&#39;</span>, <span style="color:#e6db7
 <p>Now that I&rsquo;m tracking how much I&rsquo;m selling, it would be nice to know where I&rsquo;m spending most of my time.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Location&#39;</span>]<span style="color:#f92672">.</span>value_counts()<span style="color:#f92672">.</span>plot(kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;bar&#39;</span>, colormap<span style="color:#f92672">=</span>cm<span style="color:#f92672">.</span>Paired)
 </code></pre></div><p><img src="/images/data-engineering-101/output_15_1.png" alt="png"></p>
-<p>Well that&rsquo;s not helpful. Most of these cities are in there twice!</p>
+<p>Well, that&rsquo;s not helpful. Most of these cities are in there twice!</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Location&#39;</span>]<span style="color:#f92672">.</span>unique()
 </code></pre></div><pre><code>array(['Golden', 'Aurora', 'Golden ', 'Boulder', 'Denver', 'Lakewood ',
        'denver', 'boulder', 'Lakewood'], dtype=object)
 </code></pre>
-<p>The problem is that these values are not <em>exactly</em> the same. Inconsistent casing, or extra spaces make pandas treat them as separate labels.</p>
+<p>The problem is that these values are not <em>exactly</em> the same. Inconsistent casing or extra spaces make pandas treat them as separate labels.</p>
 <p>This is another thing we need to clean up first.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v5.csv">Taco Sales - v5.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v5.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 df[<span style="color:#e6db74">&#39;Location&#39;</span>]<span style="color:#f92672">.</span>unique()
 </code></pre></div><pre><code>array(['Golden', 'Aurora', 'Boulder', 'Denver', 'Lakewood'], dtype=object)
@@ -480,6 +450,7 @@ df[<span style="color:#e6db74">&#39;Location&#39;</span>]<span style="color:#f92
 </code></pre></div><p><img src="/images/data-engineering-101/output_20_1.png" alt="png"></p>
 <p>Perfect!</p>
 <p>Another useful piece of information is weather data. That&rsquo;s in a separate tab in the excel file, so we&rsquo;ll export that as a csv and load it up.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Weather%20-%20v1.csv">Weather - v1.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">weather_df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Weather - v1.csv&#39;</span>)
 weather_df <span style="color:#f92672">=</span> weather_df<span style="color:#f92672">.</span>fillna(method<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ffill&#39;</span>)
 weather_df
@@ -539,7 +510,7 @@ weather_df
   </tbody>
 </table>
 </div>
-<p>Pandas has a join method so we can connect that to our original dataset&hellip;</p>
+<p>Pandas has a join method, so we can connect that to our original dataset&hellip;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>join(weather_df, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;outer&#39;</span>)
 </code></pre></div><div>
 <table border="1" class="dataframe">
@@ -632,6 +603,7 @@ weather_df
 <p>Not so much.</p>
 <p>Pandas needs an index to join on, and to actually match content, the index in both dataframes needs to be identical.</p>
 <p>So another round of hand-editing, and we have a dataset we can join on.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Weather%20-%20v2.csv">Weather - v2.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">weather_df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Weather - v2.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 weather_df
 </code></pre></div><div>
@@ -760,7 +732,7 @@ df
   </tbody>
 </table>
 </div>
-<p>Now that we&rsquo;ve joined both datasets, we can group the first one by weather, and see on average how many tacos we sell depending on the weather.</p>
+<p>Now that we&rsquo;ve joined both datasets, we can group the first one by weather and see on average how many tacos we sell on sunny days.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[[<span style="color:#e6db74">&#39;Beef&#39;</span>, <span style="color:#e6db74">&#39;Chicken&#39;</span>, <span style="color:#e6db74">&#39;Pork&#39;</span>, <span style="color:#e6db74">&#39;Weather&#39;</span>]]<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;Weather&#39;</span>)<span style="color:#f92672">.</span>mean()<span style="color:#f92672">.</span>plot(kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;bar&#39;</span>, colormap<span style="color:#f92672">=</span>cm<span style="color:#f92672">.</span>Paired)
 </code></pre></div><p><img src="/images/data-engineering-101/output_29_1.png" alt="png"></p>
 <p>Remember that weird spike in pork sales on the 13th we noticed earlier?</p>
@@ -795,6 +767,7 @@ desc_df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#
 <p>If we go back to the original data, we can see a pretty obvious typo of &ldquo;55&rdquo; instead of &ldquo;5&rdquo;.</p>
 <p><img src="/images/data-engineering-101/too-much-pork.png" alt="Too Much Pork"></p>
 <p>Once we fix that, we can reload all of our data, join the two sheets together again, and get graphs and codebooks like we&rsquo;d expect.</p>
+<p><a href="https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v6.csv">Taco Sales - v6.csv</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Taco Sales - v6.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 weather_df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;./versions/Weather - v2.csv&#39;</span>, index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Date&#39;</span>)
 df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>join(weather_df)
@@ -906,13 +879,13 @@ labels <span style="color:#f92672">=</span> set()
 desc_df <span style="color:#f92672">=</span> desc_df<span style="color:#f92672">.</span>append(cats_df)
 desc_df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;./codebook-2.csv&#39;</span>)
 </code></pre></div><p><img src="/images/data-engineering-101/codebook-2.png" alt="Codebook 2"></p>
-<p>Going back to the question in our title, hopefully you have a better sense of why the software developer you&rsquo;re working with keeps complaining about nitpicky little things like spaces and inconsistent capitalization. It&rsquo;s not that they&rsquo;re driven by overwhelming OCD, but that the tools that they <em>use</em> are.</p>
-<p>In many cases, there are programatic solutions to the problems I&rsquo;ve described. In almost all of them though, some kinds of assumptions must be made that could potentially result in data loss - try ignoring capitalization in &ldquo;ExpertsExchange&rdquo; and see if the meaning changes.</p>
-<p>So, to keep everyone happy, a couple tips for cleanly formated data:</p>
+<p>Going back to the question in our title, hopefully, you have a better sense of why the software developer you&rsquo;re working with keeps complaining about nitpicky little things like spaces and inconsistent capitalization. It&rsquo;s not that they&rsquo;re driven by overwhelming OCD, but that the tools that they use are.</p>
+<p>In many cases, there are programmatic solutions to the problems I&rsquo;ve described. In almost all of them, though, some kinds of assumptions must be made that could potentially result in data loss (try ignoring capitalization in &ldquo;ExpertsExchange&rdquo; and see if the meaning changes).</p>
+<p>So, to keep everyone happy, a couple of tips for cleanly formated data:</p>
 <ul>
 <li>Use a plaintext format, like CSV, instead of the default XLSX output.</li>
 <li>Use a consistent date format. <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> is a fantastic one, but in most cases, consistency is the most important thing.</li>
-<li>Make sure to trim leading and trailing spaces. They can be hard to spot in excel, but that&rsquo;s where a well made codebook can come in handy.</li>
+<li>Make sure to trim leading and trailing spaces. They can be hard to spot in excel, but that&rsquo;s where a well-made codebook can come in handy.</li>
 <li>Provide a codebook! They&rsquo;re super helpful for spotting your own errors, but are also useful for someone who doesn&rsquo;t know the data as well as you do to get themselves familiar with your dataset and know what to expect.</li>
 </ul>
 <p>Reference files and codebooks can be found <a href="https://github.com/erikwiffin/data-engineering-101">here</a>.</p>

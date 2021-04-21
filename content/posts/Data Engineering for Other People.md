@@ -9,15 +9,16 @@ tags:
   - reference
 thumbnail: "/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg"
 ---
-### Or: Why is this software engineer being such a diva?
+### Or: Why is this software engineer being so difficult?
 
 So you've got some data. In my case, I've been keeping track of how successful my taco truck has been.
 
 ![Taco Sales.xlsx](/images/data-engineering-101/taco-sales-xlsx.png)
 
-Nothing crazy, a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.
+There's nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.
 At this point, I'd like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business. I know a little python, and I've heard it's good at this kind of thing, so I fire up a jupyter notebook and import it into a pandas dataframe.
 
+[Taco Sales - v1.xlsx](https://github.com/erikwiffin/data-engineering-101/blob/main/versions/Taco%20Sales%20-%20v1.xlsx?raw=true)
 
 ```python
 import pandas as pd
@@ -26,14 +27,13 @@ from matplotlib import cm
 pd.options.display.max_rows = 7
 
 df = pd.read_excel('./versions/Taco Sales - v1.xlsx')
-df
+df.head()
 ```
 
 
 
 
-<div>
-<table border="1" class="dataframe">
+<table class="dataframe" border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -70,40 +70,23 @@ df
       <td>Aurora</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2021-04-12 00:00:00</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Denver</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2021-04-13 00:00:00</td>
+      <th>3</th>
+      <td>4/3</td>
       <td>one</td>
-      <td>7</td>
-      <td>55</td>
-      <td>Denver</td>
+      <td>three</td>
+      <td>five</td>
+      <td>Golden</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>2021-04-14 00:00:00</td>
-      <td>0</td>
+      <th>4</th>
+      <td>2021-04-04 00:00:00</td>
       <td>3</td>
-      <td>5</td>
-      <td>Denver</td>
+      <td>9</td>
+      <td>3</td>
+      <td>Boulder</td>
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -111,7 +94,7 @@ Wow, that's not what I was expecting.
 
 Leaving aside the column headings, those dates aren't what I'm seeing in Excel at all!
 
-The usual solution to problems like this is "plain text", but Excel files don't work like that at all. Luckily, they can be converted to "csv"s, or Comma Separated Values, which are plain text, and can be viewed in a text editor to make sure your data is exactly what you expect it to be. To convert, click "save as" and then pick "CSV" from the list of dropdown options. You end up with something you can open in TextEdit that looks like this:
+The usual solution to problems like this is "plain text", but Excel files don't work like that at all. Luckily, they can be converted to &ldquo;csv&rdquo;s, or Comma Separated Values, which are plain text, and can be viewed in a text editor to make sure your data is exactly what you expect it to be. To convert, click "save as" and then pick "CSV" from the list of dropdown options. You end up with something you can open in TextEdit that looks like this:
 
 ![Taco Sales.csv](/images/data-engineering-101/taco-sales-csv.png)
 
@@ -119,17 +102,15 @@ Not exactly the most readable thing in the world, but at least you can see exact
 
 Let's re-import that into pandas.
 
+[Taco Sales - v1.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v1.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v1.csv')
-df
+df.head()
 ```
 
 
-
-
-<div>
-<table border="1" class="dataframe">
+<table class="dataframe" border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -166,47 +147,30 @@ df
       <td>Aurora</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>4/12</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Denver</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>4/13</td>
+      <th>3</th>
+      <td>4/3</td>
       <td>one</td>
-      <td>7</td>
-      <td>55</td>
-      <td>Denver</td>
+      <td>three</td>
+      <td>five</td>
+      <td>Golden</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>4/14</td>
-      <td>0</td>
+      <th>4</th>
+      <td>4/4</td>
       <td>3</td>
-      <td>5</td>
-      <td>Denver</td>
+      <td>9</td>
+      <td>3</td>
+      <td>Boulder</td>
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 That matches what we see in TextEdit, great!
 
 Now, that tacos row isn't doing us any favors. Pandas is trying to use it as the "header row", but the only useful piece of information in it is the word "tacos", and it's pushing our actual column labels into our data. Let's delete that.
 
+[Taco Sales - v2.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v2.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v2.csv', index_col='Date')
@@ -343,7 +307,7 @@ df[['Beef', 'Chicken', 'Pork']].plot(colormap=cm.Paired)
 
 Oh no!
 
-If we google this error message, we find that there's a pandas function `to_numeric` that might help us, but as you can see, that has its own problems.
+If we google this error message, we find a pandas function `to_numeric` that might help us, but as you can see, that has its own problems.
 
 
 ```python
@@ -368,8 +332,9 @@ df[['Beef', 'Chicken', 'Pork']].plot(colormap=cm.Paired)
 
 Our chart has holes in it!
 
-The only way to fix this is to back to the source, and make sure that we consistently write our numbers as numbers, and not as their english equivalent. "1" not "one", "0" not "-"!
+The only way to fix this is to back to the source and make sure that we consistently write our numbers as numbers, and not as their English equivalent: `"1"`, not `"one"`. `"0"`, not `"-"`!
 
+[Taco Sales - v3.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v3.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v3.csv', index_col='Date')
@@ -388,8 +353,9 @@ df[['Beef', 'Chicken', 'Pork']].plot(colormap=cm.Paired)
     
 
 
-And we should probably do the something similar to the Date column so that we don't see that random "April 11".
+And we should probably do something similar to the Date column so that we don't see that random "April 11".
 
+[Taco Sales - v4.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v4.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v4.csv', index_col='Date')
@@ -429,7 +395,7 @@ df['Location'].value_counts().plot(kind='bar', colormap=cm.Paired)
     
 
 
-Well that's not helpful. Most of these cities are in there twice!
+Well, that's not helpful. Most of these cities are in there twice!
 
 
 ```python
@@ -444,10 +410,11 @@ df['Location'].unique()
 
 
 
-The problem is that these values are not *exactly* the same. Inconsistent casing, or extra spaces make pandas treat them as separate labels.
+The problem is that these values are not *exactly* the same. Inconsistent casing or extra spaces make pandas treat them as separate labels.
 
 This is another thing we need to clean up first.
 
+[Taco Sales - v5.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v5.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v5.csv', index_col='Date')
@@ -482,6 +449,7 @@ Perfect!
 
 Another useful piece of information is weather data. That's in a separate tab in the excel file, so we'll export that as a csv and load it up.
 
+[Weather - v1.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Weather%20-%20v1.csv)
 
 ```python
 weather_df = pd.read_csv('./versions/Weather - v1.csv')
@@ -551,7 +519,7 @@ weather_df
 
 
 
-Pandas has a join method so we can connect that to our original dataset...
+Pandas has a join method, so we can connect that to our original dataset...
 
 
 ```python
@@ -658,6 +626,7 @@ Pandas needs an index to join on, and to actually match content, the index in bo
 
 So another round of hand-editing, and we have a dataset we can join on.
 
+[Weather - v2.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Weather%20-%20v2.csv)
 
 ```python
 weather_df = pd.read_csv('./versions/Weather - v2.csv', index_col='Date')
@@ -806,7 +775,7 @@ df
 
 
 
-Now that we've joined both datasets, we can group the first one by weather, and see on average how many tacos we sell depending on the weather.
+Now that we've joined both datasets, we can group the first one by weather and see on average how many tacos we sell on sunny days.
 
 
 ```python
@@ -871,6 +840,7 @@ If we go back to the original data, we can see a pretty obvious typo of "55" ins
 
 Once we fix that, we can reload all of our data, join the two sheets together again, and get graphs and codebooks like we'd expect.
 
+[Taco Sales - v6.csv](https://raw.githubusercontent.com/erikwiffin/data-engineering-101/main/versions/Taco%20Sales%20-%20v6.csv)
 
 ```python
 df = pd.read_csv('./versions/Taco Sales - v6.csv', index_col='Date')
@@ -1027,15 +997,15 @@ desc_df.to_csv('./codebook-2.csv')
 
 ![Codebook 2](/images/data-engineering-101/codebook-2.png)
 
-Going back to the question in our title, hopefully you have a better sense of why the software developer you're working with keeps complaining about nitpicky little things like spaces and inconsistent capitalization. It's not that they're driven by overwhelming OCD, but that the tools that they *use* are.
+Going back to the question in our title, hopefully, you have a better sense of why the software developer you're working with keeps complaining about nitpicky little things like spaces and inconsistent capitalization. It's not that they're driven by overwhelming OCD, but that the tools that they use are.
 
-In many cases, there are programatic solutions to the problems I've described. In almost all of them though, some kinds of assumptions must be made that could potentially result in data loss - try ignoring capitalization in "ExpertsExchange" and see if the meaning changes.
+In many cases, there are programmatic solutions to the problems I've described. In almost all of them, though, some kinds of assumptions must be made that could potentially result in data loss (try ignoring capitalization in "ExpertsExchange" and see if the meaning changes).
 
-So, to keep everyone happy, a couple tips for cleanly formated data:
+So, to keep everyone happy, a couple of tips for cleanly formated data:
 
 + Use a plaintext format, like CSV, instead of the default XLSX output.
 + Use a consistent date format. [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) is a fantastic one, but in most cases, consistency is the most important thing.
-+ Make sure to trim leading and trailing spaces. They can be hard to spot in excel, but that's where a well made codebook can come in handy.
++ Make sure to trim leading and trailing spaces. They can be hard to spot in excel, but that's where a well-made codebook can come in handy.
 + Provide a codebook! They're super helpful for spotting your own errors, but are also useful for someone who doesn't know the data as well as you do to get themselves familiar with your dataset and know what to expect.
 
 Reference files and codebooks can be found [here](https://github.com/erikwiffin/data-engineering-101).
