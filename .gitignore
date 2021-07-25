@@ -4,3 +4,6 @@ vagrant_ansible_inventory_default
 
 # Vim swap files
 *.swp
+
+# Mac stuff
+.DS_Store
