@@ -8,11 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2020.
 </copyright>
-    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://erik.wiffin.com/tags/estimating/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/tags/estimating/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Story Points As Effort &#43; Uncertainty</title>
       <link>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</link>

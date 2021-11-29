@@ -1,104 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://erik.wiffin.com/tags/data/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/data-engineering/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/posts/data-engineering-for-other-people/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/design/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/posts/design-plans-a-reference/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/move-slow-to-go-fast/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/pandas/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/posts/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/programming/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/python/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/reference/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/agile/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/estimating/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/books/</loc>
     <lastmod>2020-09-05T14:23:35-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/consulting/</loc>
     <lastmod>2020-09-05T14:23:35-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</loc>
     <lastmod>2020-09-05T14:23:35-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erik.wiffin.com/categories/</loc>
   </url>
-  
 </urlset>

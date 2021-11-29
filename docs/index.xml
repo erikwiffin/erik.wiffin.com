@@ -8,11 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2020.
 </copyright>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Engineering for Other People</title>
       <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
