@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creative Writing on erik.wiffin</title>
+    <link>https://erik.wiffin.com/tags/creative-writing/</link>
+    <description>Recent content in Creative Writing on erik.wiffin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Erik Wiffin 2022.
+</copyright>
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/tags/creative-writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stripe For Outpatient Billing</title>
+      <link>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</guid>
+      <description>In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.
+The situation Outpatient billing is expensive and unpleasant.
+According to a study published in 2017, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.</description>
+    </item>
+    
+  </channel>
+</rss>
