@@ -47,6 +47,12 @@ They can build the lookup table that maps what different plans pay for different
 
 All of this should result in more claims being accepted, and more importantly, more predictable revenue from each of those claims.
 
+## Why Stripe
+
+I touched on this before, but because of their existing fraud mitigation requirements, Stripe has significant expertise in facilitating a financial transaction, capturing a bundle of features about that transaction, approving or denying that transaction based on those features, and, most importantly, iterating on each of those previous steps in order to do them better.
+
+In a lot of ways, outpatient billing is an easier problem than credit card fraud. The parties are better known, transactions are more similar and regular, and the "rules" are better spelled out and less likely to be broken.
+
 ## The upshot
 
 That 21.8% of gross receipts works out to about $150 billion. Any piece of that pie would make an attractive proposition. And it aligns with Stripe's mission - doctors should no more need to spend a fifth of their time thinking about billiing than an online storefront should need to worry about local sales tax. Stripe is one of the few companies with the expertise to take on this problem, and a lot of doctors would be very happy if they did.
