@@ -1,15 +1,15 @@
 ---
-title: "How to get the most out of your 1x1s"
+title: "How to get the most out of your 1:1s"
 date: 2022-03-06
 tags:
   - management
-  - 1x1s
+  - 1:1s
   - meetings
   - personal readme
 thumbnail: "/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg"
 ---
 
-As a Director of Engineering, I have monthly 1x1s with all of my direct reports. A 1x1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from _my_ perspective, (ex. https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have _a lot_ of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.
+As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from _my_ perspective, (ex. https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have _a lot_ of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.
 
 ## Don’t make it a status update
 
@@ -21,9 +21,9 @@ Instead, give me status updates in slack, on a regular basis. This accomplishes 
 * **A month is too long to go without a status update.** To the point of minor issues turning into major issues - a weekly check-in can keep that from happening. We hire capable people and expect them to be able to independently solve problems, but that doesn’t mean you have to. Sometimes, I just have more leverage, to schedule meetings higher up the org chart, to put more weight behind a request, etc.
 * **It’s an opportunity to make yourself look good.** If Alice sends me a message every week saying something like “here’s the cool thing I did” or “here’s the fire I put out by myself”, the end result will be that I will vaguely remember a bunch of positive anecdotes about Alice. Don’t worry about coming across as self-promotional or inauthentic; as long as you’re not lying, these updates will only be received positively.
 
-## What do you want to get out of your 1x1s?
+## What do you want to get out of your 1:1s?
 
-Knowing what you want out of your 1x1s is the first place to start. This meeting is not about me - as your manager, I can call a meeting with you anytime _I_ need to talk about something. Particularly in a remote environment, your monthly 1x1 is one of the few opportunities you have to meet with your manager without someone else’s itinerary dictating the conversation.
+Knowing what you want out of your 1:1s is the first place to start. This meeting is not about me - as your manager, I can call a meeting with you anytime _I_ need to talk about something. Particularly in a remote environment, your monthly 1:1 is one of the few opportunities you have to meet with your manager without someone else’s itinerary dictating the conversation.
 
 ## Is there something bothering you?
 
@@ -49,8 +49,8 @@ I do this at the end of every single client meeting I take, and you should do it
 * **what** is going to be done,
 * and **when** it’s going to be done by.
 
-This makes responsibilities explicit, and reduces chances for miscommunication. It’s easy for me to come away from a conversation thinking “Bob wants to transfer to a new project, I’ll keep his name in mind as things come up” but for you to be imagining a much shorter timeline. By saying “You will find me a new project by our next 1x1”, you’re letting me know that I need to dial up that sense of urgency.
+This makes responsibilities explicit, and reduces chances for miscommunication. It’s easy for me to come away from a conversation thinking “Bob wants to transfer to a new project, I’ll keep his name in mind as things come up” but for you to be imagining a much shorter timeline. By saying “You will find me a new project by our next 1:1”, you’re letting me know that I need to dial up that sense of urgency.
 
 ## Finally
 
-This article is a living document! If you’re one of my direct reports (or anyone, really, who attends 1x1s), and you notice a category of conversation I haven’t covered here, tell me! I’d love for this article to be a part of my [personal README](https://torch.io/blog/unlike-babies-the-best-managers-come-with-instructions/), and for all of my 1x1s to be more interesting and useful.
+This article is a living document! If you’re one of my direct reports (or anyone, really, who attends 1:1s), and you notice a category of conversation I haven’t covered here, tell me! I’d love for this article to be a part of my [personal README](https://torch.io/blog/unlike-babies-the-best-managers-come-with-instructions/), and for all of my 1:1s to be more interesting and useful.
