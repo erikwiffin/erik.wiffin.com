@@ -9,7 +9,7 @@ tags:
 thumbnail: "/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg"
 ---
 
-As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from _my_ perspective, (ex. https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have _a lot_ of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.
+As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from _my_ perspective, (ex. [The Update, The Vent, and The Disaster](https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/)) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have _a lot_ of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.
 
 ## Don’t make it a status update
 
