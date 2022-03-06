@@ -92,6 +92,7 @@
  * Article
  */
 .l-main .p-article h1 {
+  padding-left: 304px;
   border-bottom: 2px solid #555;
 }
 .l-main .p-article .p-author__avatar {
@@ -126,6 +127,10 @@
  .l-main .p-article footer {
      max-width: inherit;
      margin-left: inherit;
+ }
+
+ .l-main .p-article h1 {
+     padding-left: inherit;
  }
 
   .l-main > aside.p-author {
