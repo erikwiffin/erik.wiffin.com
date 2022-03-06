@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://erik.wiffin.com/tags/creative-writing/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <loc>https://erik.wiffin.com/tags/1x1s/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-1x1s/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/management/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/meetings/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/personal-readme/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/creative-writing/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/proposals/</loc>
@@ -18,9 +36,6 @@
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/data/</loc>
@@ -59,17 +74,17 @@
     <loc>https://erik.wiffin.com/tags/estimating/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</loc>
+    <loc>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/books/</loc>
-    <lastmod>2020-09-05T14:23:35-06:00</lastmod>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/consulting/</loc>
-    <lastmod>2020-09-05T14:23:35-06:00</lastmod>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</loc>
-    <lastmod>2020-09-05T14:23:35-06:00</lastmod>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/categories/</loc>
   </url>

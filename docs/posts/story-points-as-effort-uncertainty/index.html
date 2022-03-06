@@ -4,24 +4,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>erik.wiffin</title>
-  <meta property="og:title" content="erik.wiffin" />
-  <meta name="twitter:title" content="erik.wiffin" />
+  <title>Story Points As Effort &#43; Uncertainty</title>
+  <meta property="og:title" content="Story Points As Effort &#43; Uncertainty" />
+  <meta name="twitter:title" content="Story Points As Effort &#43; Uncertainty" />
   
 
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/" />
+  <meta property="og:url" content="https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/" />
 
+  
+  <meta property="og:image" content="https://erik.wiffin.com/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" />
+  <meta name="twitter:image" content="https://erik.wiffin.com/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" />
   
   <meta name="twitter:card" content="summary" />
 
   
 
   
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
+  
   
   
   <meta name="generator" content="Hugo 0.89.4" />
@@ -42,8 +46,6 @@ if (!doNotTrack) {
   <link rel="stylesheet" href="https://erik.wiffin.com/css/style.css" />
   
   <link rel="stylesheet" href="https://erik.wiffin.com/css/custom.css">
-  <link href="https://erik.wiffin.com/index.xml" rel="alternate" type="application/rss+xml" title="erik.wiffin" />
-  
   
   <script type="text/javascript" src="https://erik.wiffin.com/js/bundle.js"></script>
   
@@ -56,26 +58,42 @@ if (!doNotTrack) {
 
   <header class="l-header">
     
-    <h1 class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></h1>
+    <p class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></p>
     
     
   </header>
 
   <main id="main" class="l-main">
 
-<aside class="p-author">
+
+<article class="p-article">
+  <header>
+    <h1>Story Points As Effort &#43; Uncertainty</h1>
+  </header>
   
-  <div class="c-avatar p-author__avatar">
-    <img alt="Author Avatar" src="/images/headshot.jpg" />
-  </div>
-  
-  <div class="p-author__body">
-    <p>
-      <strong>Erik Wiffin</strong><br />
-      Director of Engineering<br />
-      Living in Colorado<br />
-      Working at <a href="https://devetry.com">Devetry</a><br />
-    </p>
+  <section id="js-article-meta" class="p-article__meta">
+    <div>
+      
+        <div class="c-time">
+          Posted on
+<time datetime="2020-09-19T00:00:00Z">
+  Sep 19, 2020
+</time>
+
+        </div>
+      
+    </div>
+    <div>
+      
+      
+      <a href="https://erik.wiffin.com/tags/agile" class="c-tag">Agile</a>
+      
+      
+      &bull;
+      
+      <a href="https://erik.wiffin.com/tags/estimating" class="c-tag">Estimating</a>
+      
+    </div>
     
 <ul class="c-links">
   
@@ -126,134 +144,88 @@ if (!doNotTrack) {
 </ul>
 
 
+  </section>
+  <section id="js-article" class="p-article__body">
+    <p>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful. Between these two extremes is where most of us end up; balancing the tradeoffs between accuracy and impracticality. Story points, and the various ceremonies that surround them, are an attempt at striking that balance.</p>
+<p>Software developers often use story points within some variation of agile framework to communicate their estimates to their project managers and fellow teammates. Despite their pervasiveness in the industry, story points have no consistent definition, and there is often ambiguity about what they represent. To make sure we’re all on the same page, I define them as:</p>
+<blockquote>
+<p>A relative measure of the estimated amount of effort required to complete a task.</p>
+</blockquote>
+<p>The word “relative” is doing a lot of work here. A senior developer may complete a task in half the <em>time</em> it takes a junior developer, but this shouldn’t change the estimation of <em>effort</em>. Because of this relativity, story points become most useful in aggregate. There, they are used to describe a team’s <em>velocity</em> - the number of story points a <em>team</em> can be expected to accomplish over a <em>sprint</em> (usually a two week period).</p>
+<p>Another word doing a lot of work in that definition is “estimated.” As I mentioned at the start, an estimate will never be perfect and will always carry some level of “uncertainty.” Unfortunately for story points, they are a single number and have no built-in mechanism for conveying that uncertainty. A nod to this drawback is found in the commonly used practice of only assigning story points from values in the Fibonacci sequence. 1, 2, 3, 5, 8, 13, etc. By omitting 4s and 6s, we acknowledge that our estimates are not precise enough to distinguish among the numbers surrounding five.</p>
+<p>While acknowledging uncertainty is easy to agree to in theory, it is often forgotten in practice. High point values can become dumping grounds for significant (but well defined) work, and small values can describe the “best-case scenario” of a volatile undertaking. In my own estimating, I try to stick to the agreed-upon precision, and measure my story points as “effort + uncertainty” as follows:</p>
+<ul>
+<li>1 point. I pretty much have the entire task written in my mind; I only need to type it out.</li>
+<li>2 points. Similar, but the amount of work to be done exceeds my working memory. I can’t keep the whole thing in my head at once, so I may be missing something.</li>
+<li>3 points. Some unknown element has been introduced. Documentation will need to be read, or multiple avenues will need to be explored.</li>
+<li>5 points. A significant unknown element is involved. Either documentation doesn’t exist, or the task involves components (or people) that have a reputation for being difficult.</li>
+<li>8 points. Uncertainty levels are such that I’m basically asking for a full sprint and not even promising to have a deliverable at the end. I will need to do some research, and I don’t even know where to start.</li>
+</ul>
+<p>Plotting these point values against my typical velocity looks something like this:</p>
+<p><img src="/images/story-points-quadrants.png" alt="Graph of story points with error bars"></p>
+<p>Conveniently, this fits nicely into a four-quadrant graph.</p>
+<ul>
+<li>Knowns. There is a known amount of work involved, with very few surprises - generally, a continuation of existing work.</li>
+<li>Known unknowns. There is an unknown amount of work, but the <em>kind</em> of work is known. Usually, this involves adding new functionality, particularly with external integration points.</li>
+<li>Unknown unknowns. Not only is the effort required a mystery, but it’s hard to know where to start. These show up more frequently at the start of a new project and are the most likely to blow up a timeline.</li>
+<li>Some unnamed fourth quadrant with nothing in it.</li>
+</ul>
+<p>I have found this to be a reliable framework for delivering estimates that are of consistent accuracy. It also provides a useful distinction in <em>meaning</em> between different story point values. A five is not merely a collection of ones. However, to take advantage of this framework requires that the tasks themselves have the appropriate balance of size and uncertainty.</p>
+<h4 id="5--1--1--1--1--1">5 != 1 + 1 + 1 + 1 + 1</h4>
+<p>How should we handle a big task full of a bunch of clearly defined work? Break it up. In addition to the new collection of single point tasks aligning themselves more closely with their implied precision, this conveys several other benefits. Namely:</p>
+<ul>
+<li>It’s satisfying to finish what I’m working on at the end of the day and not have to pick it back up and figure out where I was the next day.</li>
+<li>No one wants to code review a week’s worth of work, especially with the line count of a week’s worth of simple work.</li>
+<li>It’s an opportunity to catch unknowns faster. If the first task takes two days instead of one, what happened? Will the rest take twice as long too?</li>
+</ul>
+<h4 id="bimodal-probability-distribution">Bimodal probability distribution</h4>
+<p>Sometimes I see a task that I know will take one day or one month, but almost definitely not one week. An example would be doing some analysis on a large dataset, right on the cusp of what a single machine can accomplish. If it fits in memory, it will be a straightforward process; I can use the tools with which I am most familiar and iterate rapidly. If it doesn’t, then I need to implement a distributed system. Results will come more slowly, and I’ll need to add managing the computation cluster to my todo list. The solution here is to create a new task - a timeboxed research task to determine which of the two paths I’ll be going down. Once I’ve eliminated one of the two “modes”, I can feel free to estimate the remaining work using more normal probability curves.</p>
+<h4 id="some-final-thoughts">Some final thoughts</h4>
+<p>What I’ve just described is a tiny slice of what goes into putting together an estimate. I’ve explained my thought process as an individual estimating a single task. In reality, story point estimates are a dialogue with the rest of your team and take in the rest of the project as context. That dialogue is crucial to flush out hidden requirements and ensure that everyone agrees on the task’s entire scope. Finally, one of the most significant benefits of generating and tracking story points is revisiting them once the task is complete. Using past estimates to calibrate future ones is a form of deliberate practice that will inevitably improve your skill over time.</p>
+
+  </section>
+  <footer>
+    
+    <nav class="p-pagination c-pagination">
+      <div class="c-pagination__ctrl">
+        <div class="c-pagination__newer">
+          
+          <a href="https://erik.wiffin.com/posts/design-plans-a-reference/">Newer</a>
+          
+        </div>
+        <div class="c-pagination__older">
+          
+          <a href="https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/">Older</a>
+          
+        </div>
+      </div>
+    </nav>
+    
+
+
+    
+<aside class="p-author">
+  
+  <div class="c-avatar p-author__avatar">
+    <img alt="Author Avatar" src="/images/headshot.jpg" />
   </div>
+  
+  
+  <div class="p-author__body">
+    
+    <p>My name is Erik Wiffin.
+I am a director of engineering at <a href="https://devetry.com/">Devetry</a>.
+If you'd like us to help solve your software problems, <a href="https://devetry.com/contact/">drop us a line</a>.
+If you'd like to contact me directly, you can reach me at <a href="mailto:erik.wiffin@gmail.com">erik.wiffin@gmail.com</a>.
+</p>
+    
+  </div>
+  
 </aside>
 
 
-  
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-1x1s/">How to get the most out of your 1x1s</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      As a Director of Engineering, I have monthly 1x1s with all of my direct reports. A 1x1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from my perspective, (ex. https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-1x1s/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
+  </footer>
 </article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/stripe-for-outpatient-billing/">Stripe For Outpatient Billing</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.
-The situation Outpatient billing is expensive and unpleasant.
-According to a study published in 2017, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/stripe-for-outpatient-billing/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/data-engineering-for-other-people/">Data Engineering for Other People</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      Or: Why is this software engineer being so difficult? So you&rsquo;ve got some data. In my case, I&rsquo;ve been keeping track of how successful my taco truck has been.
-There&rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/data-engineering-for-other-people/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/design-plans-a-reference/">Design Plans: A Reference</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.
-What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/design-plans-a-reference/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/">Story Points As Effort &#43; Uncertainty</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/">The Missing Manual - Professionalism Among Agency Developers</a></h2>
-    
-  </header>
-  <section>
-    <div class="c-article__summary">
-      What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.
-    </div>
-    
-    <a href="https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/" class="c-article__btn p-list-article__btn">Read more</a>
-  </section>
-  
-</article>
-
-
-
-<nav class="c-pagination p-pagination">
-  <div class="c-pagination__ctrl">
-    <div class="c-pagination__newer">
-      
-    </div>
-    <div class="c-pagination__older">
-      
-    </div>
-  </div>
-  
-</nav>
-
   </main>
   
 

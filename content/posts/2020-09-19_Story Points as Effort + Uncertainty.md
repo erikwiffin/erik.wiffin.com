@@ -1,5 +1,8 @@
 ---
 title: "Story Points As Effort + Uncertainty"
+slug: "story-points-as-effort-+-uncertainty"
+aliases:
+  - "/posts/story-points-as-effort-+-uncertainty/"
 date: 2020-09-19
 tags:
   - Agile

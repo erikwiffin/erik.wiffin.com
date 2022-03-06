@@ -1,6 +1,7 @@
 ---
 title: "The Missing Manual - Professionalism Among Agency Developers"
-date: 2020-09-05T14:23:35-06:00
+slug: "missing-manual-professionalism-among-agency-developers"
+date: 2020-09-05
 tags:
 - Books
 - Consulting

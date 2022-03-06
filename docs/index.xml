@@ -8,7 +8,16 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2022.
 </copyright>
-    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get the most out of your 1x1s</title>
+      <link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-1x1s/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-1x1s/</guid>
+      <description>As a Director of Engineering, I have monthly 1x1s with all of my direct reports. A 1x1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from my perspective, (ex. https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table.</description>
+    </item>
+    
     <item>
       <title>Stripe For Outpatient Billing</title>
       <link>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</link>
@@ -42,17 +51,17 @@ What is a design plan? A design plan is a short document describing a proposed i
     
     <item>
       <title>Story Points As Effort &#43; Uncertainty</title>
-      <link>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</link>
+      <link>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://erik.wiffin.com/posts/story-points-as-effort-&#43;-uncertainty/</guid>
+      <guid>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</guid>
       <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
     </item>
     
     <item>
       <title>The Missing Manual - Professionalism Among Agency Developers</title>
       <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
-      <pubDate>Sat, 05 Sep 2020 14:23:35 -0600</pubDate>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
       <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
