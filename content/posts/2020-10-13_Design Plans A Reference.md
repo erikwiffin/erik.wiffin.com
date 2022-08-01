@@ -61,3 +61,7 @@ In this example, I am pretending that I have an existing TODO List application w
 The above plan is pretty rough, and despite describing a non-existent codebase, it didn’t take me long to write. But it describes most of what I’m going to have to do and gives me something to show to my coworker when I go to them and say, “I think my ReminderAlert component is doing too much.”
 
 I have yet to find any single technique for junior and mid-level developers that will improve code quality as significantly as writing design plans. For senior developers, I have yet to regret writing one and can think of several off-hand that I wish I had written.
+
+### Updates
+
+- 2022-08-01 - Some companies have an official process for writing these documents and published templates for what they should include. Gergely Orosz has a fantastic write-up on [Companies Using RFCs or Design Docs and Examples of These](https://blog.pragmaticengineer.com/rfcs-and-design-docs/)
