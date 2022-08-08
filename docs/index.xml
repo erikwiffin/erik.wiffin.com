@@ -8,7 +8,17 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2022.
 </copyright>
-    <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What to do when someone tells you to &#34;take initiative&#34;</title>
+      <link>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</guid>
+      <description>I have always hated the phrase “Don’t bring me problems, bring me solutions!”. It feels lazy. It incentivizes people to sweep things under the rug if they can’t figure out what to do. It doesn’t give any useful direction to the person bringing you problems, because if they had solutions, they probably would have brought them already! At its best, it’s unhelpful, at its worst, it’s actively harmful.
+I have similar, but less strong issues with the idea of telling someone to “take more initiative”.</description>
+    </item>
+    
     <item>
       <title>Limiting Work In Progress as a Manager</title>
       <link>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</link>
@@ -61,10 +71,10 @@ What is a design plan? A design plan is a short document describing a proposed i
     
     <item>
       <title>Story Points As Effort &#43; Uncertainty</title>
-      <link>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</link>
+      <link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</guid>
+      <guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
       <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
     </item>
     

@@ -22,10 +22,5 @@ params:
   linkedin: "erikwiffin"
   email: "erik.wiffin@gmail.com"
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 permalinks:
   posts: /posts/:slug

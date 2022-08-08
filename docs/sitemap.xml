@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://erik.wiffin.com/tags/calendars/</loc>
-    <lastmod>2022-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/initiative/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/management/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/responsibility/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/calendars/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/tags/management/</loc>
-    <lastmod>2022-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/tags/meetings/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/posts/</loc>
-    <lastmod>2022-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/tags/productivity/</loc>
-    <lastmod>2022-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/work-life-balance/</loc>
@@ -86,7 +95,7 @@
     <loc>https://erik.wiffin.com/tags/estimating/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/posts/story-points-as-effort-uncertainty/</loc>
+    <loc>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/books/</loc>
