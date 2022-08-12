@@ -18,7 +18,7 @@ For me, two concepts helped me understand the _intention_ behind “take more in
 
 ## Circles of Responsibility
 
-{{< figure src="/images/taking-initiative/circles-of-responsibility.png" alt="Circles of Responsibility" width="300" >}}
+{{< image name="images/circles-of-responsibility.png" alt="Circles of Responsibility" class="float-right" >}}
 
 You can think of circles of responsibility as expanding circles with “definitely, 100%, this is my job” in the middle, things that you have absolutely nothing to do with on the outside, and an ambiguous gradient of responsibility in the middle.
 
@@ -32,7 +32,7 @@ If you’re being told to “take more initiative”, the project would probably
 
 ## Levels of Initiative
 
-{{< figure src="/images/taking-initiative/levels-of-initiative.png" alt="Levels of Initiative" width="300" >}}
+{{< image name="images/levels-of-initiative.png" alt="Levels of Initiative" class="float-right" >}}
 
 No one really knows how many levels of initiative there are. Some people say [four](https://www.agilityirl.com/understanding-the-four-levels-of-initiative/), some say [five](https://jsilva.blog/2020/03/23/five-degrees-initiative/), and some go as high as [seven](https://prezi.com/x-wavzevs5-v/7-levels-of-initiative-and-self-empowerment/)! The model I like best comes from [The 8th Habit by Stephen R. Covey](https://www.goodreads.com/book/show/1044141.The_8th_Habit).
 

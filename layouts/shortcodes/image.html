@@ -1,0 +1,16 @@
+{{ $size := .Get "size" }}
+{{ $name := .Get "name" }}
+{{ $image := .Page.Resources.GetMatch $name  }}
+{{ if $size }}
+    {{ $image = $image.Resize $size }}
+{{ end }}
+
+{{ with $image }}
+<img src="{{ .RelPermalink }}"
+    width="{{ .Width }}"
+    height="{{ .Height }}"
+    {{ with $.Get "class" }}class="{{ . }}"{{ end }}
+    {{ with $.Get "alt" }}alt="{{ . }}"{{ end }}
+    />
+{{ end }}
+

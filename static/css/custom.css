@@ -150,3 +150,17 @@
     justify-content: center;
   }
 }
+
+/**
+ * Misc
+ * */
+img.float-right {
+    max-width: 360px;
+    float: right;
+}
+@media (max-width: 1024px) {
+    img.float-right {
+        max-width: 100%;
+        float: none;
+    }
+}
