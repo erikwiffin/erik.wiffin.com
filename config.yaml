@@ -6,7 +6,7 @@ theme: "pickles"
 publishDir: "docs"
 Copyright: |
   &copy; Erik Wiffin 2022.
-googleAnalytics: 'UA-8267311-1'
+googleAnalytics: "G-N8GNFJ4CPT"
 params:
   author: "Erik Wiffin"
   bio: |
