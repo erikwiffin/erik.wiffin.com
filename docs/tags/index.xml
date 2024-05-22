@@ -8,231 +8,196 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2023.
 </copyright>
-    <lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erik.wiffin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>generative-ai</title>
+      <link>https://erik.wiffin.com/tags/generative-ai/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>llms</title>
+      <link>https://erik.wiffin.com/tags/llms/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>management</title>
+      <link>https://erik.wiffin.com/tags/management/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>meetings</title>
+      <link>https://erik.wiffin.com/tags/meetings/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/meetings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reference</title>
+      <link>https://erik.wiffin.com/tags/reference/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/reference/</guid>
+      <description></description>
+    </item>
     <item>
       <title>links</title>
       <link>https://erik.wiffin.com/tags/links/</link>
       <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/links/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>initiative</title>
       <link>https://erik.wiffin.com/tags/initiative/</link>
       <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/initiative/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>management</title>
-      <link>https://erik.wiffin.com/tags/management/</link>
-      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://erik.wiffin.com/tags/management/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>responsibility</title>
       <link>https://erik.wiffin.com/tags/responsibility/</link>
       <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/responsibility/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>calendars</title>
       <link>https://erik.wiffin.com/tags/calendars/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/calendars/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>meetings</title>
-      <link>https://erik.wiffin.com/tags/meetings/</link>
-      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://erik.wiffin.com/tags/meetings/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>productivity</title>
       <link>https://erik.wiffin.com/tags/productivity/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>work-life balance</title>
       <link>https://erik.wiffin.com/tags/work-life-balance/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/work-life-balance/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>1:1s</title>
       <link>https://erik.wiffin.com/tags/11s/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/11s/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>personal readme</title>
       <link>https://erik.wiffin.com/tags/personal-readme/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/personal-readme/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Creative Writing</title>
       <link>https://erik.wiffin.com/tags/creative-writing/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/creative-writing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Proposals</title>
       <link>https://erik.wiffin.com/tags/proposals/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/proposals/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Stripe</title>
       <link>https://erik.wiffin.com/tags/stripe/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/stripe/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>data</title>
       <link>https://erik.wiffin.com/tags/data/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/data/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>data engineering</title>
       <link>https://erik.wiffin.com/tags/data-engineering/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/data-engineering/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>design</title>
       <link>https://erik.wiffin.com/tags/design/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/design/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>move slow to go fast</title>
       <link>https://erik.wiffin.com/tags/move-slow-to-go-fast/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/move-slow-to-go-fast/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>pandas</title>
       <link>https://erik.wiffin.com/tags/pandas/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/pandas/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>programming</title>
       <link>https://erik.wiffin.com/tags/programming/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/programming/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>python</title>
       <link>https://erik.wiffin.com/tags/python/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/python/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>reference</title>
-      <link>https://erik.wiffin.com/tags/reference/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://erik.wiffin.com/tags/reference/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Agile</title>
       <link>https://erik.wiffin.com/tags/agile/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/agile/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Estimating</title>
       <link>https://erik.wiffin.com/tags/estimating/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/estimating/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Books</title>
       <link>https://erik.wiffin.com/tags/books/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/books/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Consulting</title>
       <link>https://erik.wiffin.com/tags/consulting/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/tags/consulting/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

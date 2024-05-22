@@ -8,16 +8,14 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2023.
 </copyright>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erik.wiffin.com/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Engineering for Other People</title>
       <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
-      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.
-There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
+      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&#xA;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
     </item>
-    
   </channel>
 </rss>

@@ -8,94 +8,77 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2023.
 </copyright>
-    <lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proof of Thought</title>
+      <link>https://erik.wiffin.com/posts/proof-of-thought/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/posts/proof-of-thought/</guid>
+      <description>I’ve been thinking about a concept that I’ve been calling “Proof of Thought” for a while now. It’s the idea that certain processes in the modern workplace require that someone thinks about them for a while, and the best way to prove that they have done so historically is through written reports. You know the type: project plans, strategy documents, self-evaluations. The kind of documents that no one will ever read in their entirety after they’ve been written, but that still need to be well-written, relevant, and include enough plain English to make sense.</description>
+    </item>
     <item>
       <title>Evergreen Links</title>
       <link>https://erik.wiffin.com/posts/evergreen-links/</link>
       <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/evergreen-links/</guid>
-      <description>A collection of blog posts and resources that I’ve found useful and frequently refer back to.
-Death by PowerPoint: the slide that killed seven people How to Socialize Big Changes at Work A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture The Ultimate Burnout Guide: Symptoms, Causes, and Prevention The Boy Scout Rule ~Robert C. Martin (Uncle Bob) Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule How Big Tech Runs Tech Projects and the Curious Absence of Scrum Don’t be spooky Scaling Engineering Teams via RFCs: Writing Things Down The Blue Tape List Questions for our first 1:1 How to Do Code Reviews Like a Human How to Make Your Code Reviewer Fall in Love with You The Kindly Brontosaurus World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World Taboo Your Words Making it Virtually Easy to Deploy on Day One The Picasso Principle The Elves Leave Middle Earth – Sodas Are No Longer Free </description>
+      <description>A collection of blog posts and resources that I’ve found useful and frequently refer back to.&#xA;Death by PowerPoint: the slide that killed seven people How to Socialize Big Changes at Work A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture The Ultimate Burnout Guide: Symptoms, Causes, and Prevention The Boy Scout Rule ~Robert C. Martin (Uncle Bob) Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule How Big Tech Runs Tech Projects and the Curious Absence of Scrum Don’t be spooky Scaling Engineering Teams via RFCs: Writing Things Down The Blue Tape List Questions for our first 1:1 How to Do Code Reviews Like a Human How to Make Your Code Reviewer Fall in Love with You The Kindly Brontosaurus World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World Taboo Your Words Making it Virtually Easy to Deploy on Day One The Picasso Principle The Elves Leave Middle Earth – Sodas Are No Longer Free </description>
     </item>
-    
     <item>
       <title>What to do when someone tells you to &#34;take initiative&#34;</title>
       <link>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</link>
       <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</guid>
-      <description>I have always hated the phrase “Don’t bring me problems, bring me solutions!”. It feels lazy. It incentivizes people to sweep things under the rug if they can’t figure out what to do. It doesn’t give any useful direction to the person bringing you problems, because if they had solutions, they probably would have brought them already! At its best, it’s unhelpful, at its worst, it’s actively harmful.
-I have similar, but less strong issues with the idea of telling someone to “take more initiative”.</description>
+      <description>I have always hated the phrase “Don’t bring me problems, bring me solutions!”. It feels lazy. It incentivizes people to sweep things under the rug if they can’t figure out what to do. It doesn’t give any useful direction to the person bringing you problems, because if they had solutions, they probably would have brought them already! At its best, it’s unhelpful, at its worst, it’s actively harmful.&#xA;I have similar, but less strong issues with the idea of telling someone to “take more initiative”.</description>
     </item>
-    
     <item>
       <title>Limiting Work In Progress as a Manager</title>
       <link>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</guid>
-      <description>The demands on a manager&amp;rsquo;s time are endless and sometimes it feels like you&amp;rsquo;re being pulled in every direction at once. These demands can make it hard to focus, they make it hard to move from reacting to problems to anticipating them. In this article, I&amp;rsquo;d like to talk about how I&amp;rsquo;ve limited demands on my time, counterintuitively doing more with less.
-The story The very first thing I learned as a new manager was that if I didn&amp;rsquo;t put a block on my calendar at lunchtime, there was no guarantee that I would eat lunch that day.</description>
+      <description>The demands on a manager&amp;rsquo;s time are endless and sometimes it feels like you&amp;rsquo;re being pulled in every direction at once. These demands can make it hard to focus, they make it hard to move from reacting to problems to anticipating them. In this article, I&amp;rsquo;d like to talk about how I&amp;rsquo;ve limited demands on my time, counterintuitively doing more with less.&#xA;The story The very first thing I learned as a new manager was that if I didn&amp;rsquo;t put a block on my calendar at lunchtime, there was no guarantee that I would eat lunch that day.</description>
     </item>
-    
     <item>
       <title>How to get the most out of your 1:1s</title>
       <link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</guid>
       <description>As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from my perspective, (ex. The Update, The Vent, and The Disaster) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table.</description>
     </item>
-    
     <item>
       <title>Stripe For Outpatient Billing</title>
       <link>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</guid>
-      <description>In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.
-The situation Outpatient billing is expensive and unpleasant.
-According to a study published in 2017, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.</description>
+      <description>In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.&#xA;The situation Outpatient billing is expensive and unpleasant.&#xA;According to a study published in 2017, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.</description>
     </item>
-    
     <item>
       <title>Data Engineering for Other People</title>
       <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
-      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.
-There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
+      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&#xA;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
     </item>
-    
     <item>
       <title>Design Plans: A Reference</title>
       <link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
-      <description>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.
-What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.</description>
+      <description>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.&#xA;What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.</description>
     </item>
-    
     <item>
       <title>Story Points As Effort &#43; Uncertainty</title>
       <link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
       <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
     </item>
-    
     <item>
       <title>The Missing Manual - Professionalism Among Agency Developers</title>
       <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
       <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
     </item>
-    
   </channel>
 </rss>
