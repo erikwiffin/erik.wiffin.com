@@ -8,6 +8,8 @@ tags:
   - management
   - reference
 thumbnail: "/images/proof-of-thought.png"
+summary: |
+  With large language models capable of generating convincing documents without real thought, this insightful article explores the critical need for new "Proofs of Thought" to ensure genuine intellectual engagement and prevent workplace processes from becoming mere facades.
 ---
 I’ve been thinking about a concept that I’ve been calling “Proof of Thought” for a while now. It’s the idea that certain processes in the modern workplace require that someone thinks about them for a while, and the best way to prove that they have done so historically is through written reports. You know the type: project plans, strategy documents, self-evaluations. The kind of documents that no one will ever read in their entirety after they’ve been written, but that still need to be well-written, relevant, and include enough plain English to make sense.
 
