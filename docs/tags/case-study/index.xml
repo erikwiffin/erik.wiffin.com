@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>case study on erik.wiffin</title>
+    <link>https://erik.wiffin.com/tags/case-study/</link>
+    <description>Recent content in case study on erik.wiffin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Erik Wiffin 2024.
+</copyright>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erik.wiffin.com/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patient No-Show Prediction: Improving Operating Room Utilization in a Major Academic Medical Center</title>
+      <link>https://erik.wiffin.com/case-study-patient-no-show-prediction/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/case-study-patient-no-show-prediction/</guid>
+      <description>Executive Summary A major academic medical center faced challenges with high patient no-show rates for scheduled surgical procedures, leading to suboptimal utilization of limited operating room capacity and lost revenue opportunities. To address this problem, I was contracted to develop a machine learning model to predict the likelihood of patient no-shows. By integrating this predictive capability into their scheduling workflows, the hospital was able to proactively identify high-risk no-show patients and take steps to mitigate the issue.</description>
+    </item>
+  </channel>
+</rss>

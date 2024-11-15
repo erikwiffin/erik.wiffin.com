@@ -164,3 +164,15 @@ img.float-right {
         float: none;
     }
 }
+
+/**
+ * Print styles
+ */
+@media print {
+  .l-main section.p-article__meta {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}

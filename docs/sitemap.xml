@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://erik.wiffin.com/tags/ai/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/case-study/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://erik.wiffin.com/</loc>
-    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/healthcare/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/ml/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/case-study-patient-no-show-prediction/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/ai-strategy-and-implementation/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/llm/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/services/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/strategy/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/generative-ai/</loc>
     <lastmod>2024-05-21T00:00:00+00:00</lastmod>
@@ -24,9 +54,6 @@
     <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/reference/</loc>
-    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/evergreen-links/</loc>

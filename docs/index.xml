@@ -8,8 +8,22 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2024.
 </copyright>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patient No-Show Prediction: Improving Operating Room Utilization in a Major Academic Medical Center</title>
+      <link>https://erik.wiffin.com/case-study-patient-no-show-prediction/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/case-study-patient-no-show-prediction/</guid>
+      <description>Executive Summary A major academic medical center faced challenges with high patient no-show rates for scheduled surgical procedures, leading to suboptimal utilization of limited operating room capacity and lost revenue opportunities. To address this problem, I was contracted to develop a machine learning model to predict the likelihood of patient no-shows. By integrating this predictive capability into their scheduling workflows, the hospital was able to proactively identify high-risk no-show patients and take steps to mitigate the issue.</description>
+    </item>
+    <item>
+      <title>AI Strategy &amp; Implementation</title>
+      <link>https://erik.wiffin.com/ai-strategy-and-implementation/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/ai-strategy-and-implementation/</guid>
+      <description>I provide AI strategy and implementation services. If you think I can help you, contact me at erik.wiffin@gmail.com.&#xA;Services AI Strategy: I will work with you to help you define your company&amp;rsquo;s AI Strategy. Zero to One: Proof of Concept Implementation: I will develop a proof of concept to validate a product idea or lay a foundation for your existing engineering team. One to One Million: AI in production: I will provision the infrastructure required for you to run your AI in production, covering everything from hardware requirements, to logging and monitoring to prevent &amp;ldquo;model drift&amp;rdquo; over time.</description>
+    </item>
     <item>
       <title>Proof of Thought</title>
       <link>https://erik.wiffin.com/posts/proof-of-thought/</link>
