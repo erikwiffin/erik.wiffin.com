@@ -25,4 +25,4 @@ I've been working with language models since before they were large. In addition
 
 ## Case Studies
 
-* [Patient No-Show Prediction: Improving Operating Room Utilization in a Major Academic Medical Center](/posts/case-study-patient-no-show-prediction/)
+* [Patient No-Show Prediction: Improving Operating Room Utilization in a Major Academic Medical Center](/case-study-patient-no-show-prediction/)
