@@ -1,0 +1,16 @@
+{{ $testimonials := .Page.Params.testimonials }}
+{{ if $testimonials }}
+<div class="flex flex-row gap-6">
+  {{ range $testimonials }}
+  <div class="flex-1 card bg-white shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
+    <div class="card-body">
+      <div class="mb-4">
+        <h4 class="font-bold text-lg text-gray-800">{{ .name }}</h4>
+        <p class="text-sm text-gray-700">{{ .title }}</p>
+      </div>
+      <p class="text-gray-700 italic">"{{ .quote }}"</p>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -7,3 +7,6 @@ vagrant_ansible_inventory_default
 
 # Mac stuff
 .DS_Store
+
+# JS stuff
+node_modules

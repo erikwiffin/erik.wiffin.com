@@ -6,7 +6,7 @@
     <description>Recent content on erik.wiffin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2024.
+    <copyright>&amp;copy; Erik Wiffin 2025.
 </copyright>
     <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/index.xml" rel="self" type="application/rss+xml" />
@@ -93,6 +93,13 @@
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
       <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
+    </item>
+    <item>
+      <title>Fractional Tech Lead</title>
+      <link>https://erik.wiffin.com/fractional-tech-lead/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/fractional-tech-lead/</guid>
+      <description>Fractional Tech Lead Technical leadership without bringing on a full time employee.&#xA;Book a free 30-minute call Who you are You&#39;re an early or growth-stage startup that needs real technical leadership but doesn&#39;t have the budget or timing for a full-time CTO. Maybe your MVP is buckling under real traffic, you&#39;re preparing for your next fundraise, or you&#39;re a non-technical founder who knows it&#39;s time to get serious about your technology.</description>
     </item>
   </channel>
 </rss>

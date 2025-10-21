@@ -1,0 +1,20 @@
+{
+  "name": "erik-wiffin-site",
+  "version": "1.0.0",
+  "description": "Erik Wiffin's personal website with DaisyUI",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/output.css --watch",
+    "build:css:prod": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/output.css --minify",
+    "dev": "hugo server --disableFastRender",
+    "build": "npm run build:css:prod && hugo"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^5.3.7",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.1.15"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.15"
+  }
+}
