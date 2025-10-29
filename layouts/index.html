@@ -1,3 +1,40 @@
+{{ $fractionalPage := .Site.GetPage "fractional-tech-lead" }}
+{{ if $fractionalPage }}
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>{{ $fractionalPage.Title }} - {{ .Site.Title }}</title>
+  <meta name="description" content="{{ $fractionalPage.Description | default $fractionalPage.Summary }}">
+  <meta name="author" content="{{ .Site.Params.author }}"/>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $fractionalPage.Title }}">
+  <meta property="og:description" content="{{ $fractionalPage.Description | default $fractionalPage.Summary }}">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ .Permalink }}">
+  <meta property="twitter:title" content="{{ $fractionalPage.Title }}">
+  <meta property="twitter:description" content="{{ $fractionalPage.Description | default $fractionalPage.Summary }}">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/output.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
+  
+  <!-- Favicon -->
+  {{- with .Site.Params.favicon }}
+  <link rel='icon' type='image/x-icon' href="{{ . | absURL }}" />
+  {{- end }}
+</head>
+<body>
+    {{ $fractionalPage.Content }}
+</body>
+</html>
+{{ else }}
 {{ partial "header.html" . }}
 <aside class="p-author">
   {{ with ($.Param "avatar") }}
@@ -23,3 +60,4 @@
 
 {{ partial "pagination.html" .Paginator }}
 {{ partial "footer.html" . }}
+{{ end }}
