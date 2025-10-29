@@ -1,6 +1,6 @@
 {{ $testimonials := .Page.Params.testimonials }}
 {{ if $testimonials }}
-<div class="flex flex-row gap-6">
+<div class="flex flex-col md:flex-row gap-6">
   {{ range $testimonials }}
   <div class="flex-1 card bg-white shadow-md hover:shadow-xl transition-shadow duration-300 p-4">
     <div class="card-body">

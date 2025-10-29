@@ -31,3 +31,11 @@
 		transform: translatey(0px);
 	}
 }
+
+/* .btn-lg {
+    @media (width <= 50rem) {
+		  display: inline-block;
+		  height: inherit;
+		  padding: 10px;
+    }
+} */
