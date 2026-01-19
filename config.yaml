@@ -1,17 +1,16 @@
 baseURL: "https://erik.wiffin.com/"
-#baseURL: "https://erikwiffin.github.io/erik.wiffin.com/"
 languageCode: "en-us"
 title: "erik.wiffin"
 theme: "pickles"
 publishDir: "docs"
 Copyright: |
-  &copy; Erik Wiffin 2025.
+  &copy; Erik Wiffin 2026.
 googleAnalytics: "G-N8GNFJ4CPT"
 params:
   author: "Erik Wiffin"
   bio: |
     My name is Erik Wiffin.
-    I am an engineering manager at <a href="https://www.resilia.com/">Resilia</a>.
+    I am a Fractional Tech Lead.
     If you'd like to contact me directly, you can reach me at <a href="mailto:erik.wiffin@gmail.com">erik.wiffin@gmail.com</a>.
   contact: "mailto:erik.wiffin@gmail.com"
   avatar: "/images/headshot.jpg"
