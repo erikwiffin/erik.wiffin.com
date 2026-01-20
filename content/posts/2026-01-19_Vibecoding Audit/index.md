@@ -6,6 +6,7 @@ tags:
   - audit
   - testing
   - seo
+thumbnail: "/images/gather-screenshot.png"
 summary: |
   I spent the holidays building an event platform with an AI "vibecoding" tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.
 ---
