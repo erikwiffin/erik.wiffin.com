@@ -31,7 +31,8 @@
   {{- end }}
 </head>
 <body>
-    {{ $fractionalPage.Content }}
+  {{ partial "svgpack-sprite.html" . }}
+  {{ $fractionalPage.Content }}
 </body>
 </html>
 {{ else }}

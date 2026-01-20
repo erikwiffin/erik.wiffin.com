@@ -4,20 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Vibecoding Audit</title>
-  <meta property="og:title" content="Vibecoding Audit" />
-  <meta name="twitter:title" content="Vibecoding Audit" />
+  <title>seo</title>
+  <meta property="og:title" content="seo" />
+  <meta name="twitter:title" content="seo" />
   
 
-  
-  <meta name="description" content="I spent the holidays building an event platform with an AI &ldquo;vibecoding&rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.">
-  <meta property="og:description" content="I spent the holidays building an event platform with an AI &ldquo;vibecoding&rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.">
-  <meta name="twitter:description" content="I spent the holidays building an event platform with an AI &ldquo;vibecoding&rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit …">
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/posts/vibecoding-audit/" />
+  <meta property="og:url" content="https://erik.wiffin.com/tags/seo/" />
 
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -25,8 +21,7 @@
   
 
   
-  <meta property="og:type" content="article" />
-  
+  <meta property="og:type" content="website" />
   
   
   <meta name="generator" content="Hugo 0.121.2">
@@ -59,7 +54,7 @@ if (!doNotTrack) {
 
   <header class="l-header">
     
-    <p class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></p>
+    <h1 class="c-title p-title"><a href="https://erik.wiffin.com/" class="p-title__link">erik.wiffin</a></h1>
     
     
   </header>
@@ -67,166 +62,6 @@ if (!doNotTrack) {
   <main id="main" class="l-main">
 
 
-<article class="p-article">
-  <header>
-    <h1>Vibecoding Audit</h1>
-  </header>
-  
-  <section id="js-article-meta" class="p-article__meta">
-    <div>
-      
-        <div class="c-time">
-          Posted on
-<time datetime="2025-01-19T00:00:00Z">
-  Jan 19, 2025
-</time>
-
-        </div>
-      
-    </div>
-    <div>
-      
-      
-      <a href="https://erik.wiffin.com/tags/ai" class="c-tag">ai</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/audit" class="c-tag">audit</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/testing" class="c-tag">testing</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/seo" class="c-tag">seo</a>
-      
-    </div>
-    
-<ul class="c-links">
-  
-  
-  
-  
-  
-  <li class="c-links__item">
-    <a href="https://github.com/erikwiffin" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>github</title>
-        <use xlink:href="#icon-github"></use>
-      </svg>
-    </a>
-  </li>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="c-links__item">
-    <a href="https://linkedin.com/in/erikwiffin" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>linkedin</title>
-        <use xlink:href="#icon-linkedin"></use>
-      </svg>
-    </a>
-  </li>
-  
-  
-  
-  <li class="c-links__item">
-    <a href="mailto:erik.wiffin@gmail.com" target="_blank">
-      <svg viewBox="0 0 64 64" class="c-links__icon">
-        <title>email</title>
-        <use xlink:href="#icon-mail"></use>
-      </svg>
-    </a>
-  </li>
-  
-</ul>
-
-
-  </section>
-  <section id="js-article" class="p-article__body">
-    <p>Over the holidays, I took some time to play around with the AI-powered App building platform <a href="https://lovable.dev/">Lovable</a>. It was obvious within minutes of using it that it could build a lot of functionality very quickly, but less obvious was the answer to the question: would I trust that application to run in production? What follows is a deep dive into the app that I built - the highs, the lows, and where to go from here.</p>
-<h2 id="the-app">The App</h2>
-<p>Introducing <a href="https://event-connect-gather.lovable.app/">Gather</a>. Gather is an event management platform that lets you schedule public and private events, collect RSVPs, and even charge for promotional placement in search results.</p>
-<p><p class="md__image">
-  <img src="./gather-screenshot.png" alt="Gather Screenshot"  />
-</p>
-</p>
-<p>I built Gather in a couple of hours, spread over a few sessions. Gather is hosted on Lovable’s servers and connects to a couple external services (Mapbox, Stripe, Resend, Supabase). It’s not the most complicated application ever, but certainly more feature complete than what I historically would have been able to put together for a weekend project.</p>
-<p>If you want to follow along at home, I’ve made the codebase public <a href="https://github.com/erikwiffin/event-connect">here</a>.</p>
-<h2 id="audit-summary">Audit Summary</h2>
-<p>Overall, I’m pretty impressed by this application, and the distance between here and something that could be run in production is not far. The biggest issues were a <strong>lack of distinct production and development environments</strong>, a <strong>missing or non-functional test suite</strong>, and some <strong>SEO bugs that would be a significant issue for a B2C application</strong> like this. Nothing I found was anything that couldn’t be resolved in a couple of days by an experienced software developer, and I frequently found myself asking the coding agent to fix issues as I discovered them since the barrier to doing so was so low.</p>
-<h2 id="production-vs-development-environments">Production vs. Development Environments</h2>
-<p>The production application running at <a href="https://event-connect-gather.lovable.app/">https://event-connect-gather.lovable.app/</a> and the development application connected to the coding agent are running different codebases (Lovable requires you to “publish” your app for any new functionality to go live), but to my surprise were running off of the same shared database. This is a huge issue for any application running with real users that has data that you wouldn’t want to lose.</p>
-<p><a href="https://x.com/jasonlk/status/1946239068691665187"><p class="md__image">
-  <img src="./it%20deleted%20our%20production%20database.png" alt="it deleted our production database"  />
-</p>
-</a></p>
-<p>The past year has had several pretty public examples of AI agents dropping production databases, so I have to say that I am not yet prepared to trust them with that kind of access. Beyond that though, it means that features that are currently under development by the coding agent can’t make any database schema changes without potentially bringing down the production application.</p>
-<p><em>Recommendation: Thankfully Lovable makes all the generated code available in a connected github repository. From here, I would stand up a deployment pipeline connected to a completely standalone production environment.</em></p>
-<h2 id="testing">Testing</h2>
-<p>Without being prompted, the coding agent didn’t write any unit or integration tests. When told to write integration tests for key application functionality, it wrote 39, <strong>25 of which were failing</strong>. Further, the coding agent has no capability to run tests as a part of its development process.</p>
-<p><p class="md__image">
-  <img src="./failing-tests.png" alt="25 failing tests"  />
-</p>
-</p>
-<p>Particularly in the world of AI-driven development, a solid test suite is key to making sure that previously working functionality doesn’t suddenly break when a new feature is added. Other coding agents can even incorporate automated tests into the development lifecycle, checking their own work as they go.</p>
-<p><em>Recommendation: This is an area where human intervention is probably necessary. Having someone go through the core functionality of the app, verify that it’s working, and write automated tests would give me the confidence to let the coding agent run wild with new functionality. These automated tests should be incorporated into the deployment pipeline mentioned above, particularly since the coding agent can’t run them itself.</em></p>
-<h2 id="seo">SEO</h2>
-<p>This is a consumer facing application where I would expect 90% of inbound traffic to come from searches like “things to do in my city tonight”. Getting the SEO right so that search engines can serve up Gather events for those queries is crucial.</p>
-<p><p class="md__image">
-  <img src="./seo-social-previews.png" alt="SEO social previews"  />
-</p>
-</p>
-<p>One of the last steps in my development process was to ask the coding agent to do an “SEO audit” and resolve any issues that came up. It made some changes, but ultimately I don’t think it fully understood what it needed to do here.</p>
-<ul>
-<li>Meta tags were incorrectly configured, individual pages would show in search engines with the same title and description as the application homepage.</li>
-<li>The sitemap was missing individual event pages. Unless crawlers lucked out and saw events on the explore page, there would be no way of discovering the long tail of events.</li>
-</ul>
-<p><em>Recommendation: Fix these issues and set up something like the Google Search Console. The Search Console gives you insights into how the Google crawler sees your website and can be used to debug issues down the road when the events catalog is bigger and these details start to matter more.</em></p>
-<h2 id="everything-else">Everything Else</h2>
-<p>Those were the three biggest issues, but there’s always something else in software.</p>
-<ul>
-<li>There were a few low-to-medium security issues that were identified and should be resolved. Mostly around making sure that Cross-Site Request Forgery (CSRF) headers were being set correctly.</li>
-<li>I loaded up the application with some sample events and started running into some performance issues. The coding agent was able to fix the worst of them, but as the application scales performance will continue to be an issue to be resolved.</li>
-<li>Despite looking very nice on a page by page basis, there were a few design inconsistencies that could and should be resolved.</li>
-<li>A few of the features need more work. The ticketed events feature doesn’t really do anything other than trigger a Stripe checkout flow. We’d probably want that to use Stripe Connect so event organizers could get paid, and give them more tools for managing purchased tickets and seeing their own revenue flow. The location autocomplete when creating an event could be better. Etc.</li>
-<li>No analytics have been configured beyond what Loveable comes with out of the box. A marketing team is going to want to know more than that, so they can see what kinds of events are attracting notice and how users are using the app.</li>
-</ul>
-<p>My full audit is <a href="./Gather%20Audit.pdf">here</a>. I also have a <a href="./Gather%20-%20ZAP%20by%20Checkmarx%20Scanning%20Report.pdf">Zap report</a>, <a href="./Gather%20-%20Lighthouse.pdf">Lighthouse report</a>, and <a href="./Gather%20-%20Audit%20Notes.xlsx">some more detailed breakdowns of endpoints and application dependencies</a>.</p>
-
-  </section>
-  <footer>
-    
-    <nav class="p-pagination c-pagination">
-      <div class="c-pagination__ctrl">
-        <div class="c-pagination__newer">
-          
-          
-        </div>
-        <div class="c-pagination__older">
-          
-          <a href="https://erik.wiffin.com/posts/proof-of-thought/">Older</a>
-          
-        </div>
-      </div>
-    </nav>
-    
-
-
-    
 <aside class="p-author">
   
   <div class="c-avatar p-author__avatar">
@@ -246,8 +81,42 @@ If you'd like to contact me directly, you can reach me at <a href="mailto:erik.w
 </aside>
 
 
-  </footer>
+<aside class="p-list-article">
+    <header>
+        <h2 class="c-title p-tag-title">seo</h2>
+    </header>
+</aside>
+
+
+
+
+<article class="c-article p-list-article">
+  <header>
+    <h2 class="c-title c-article__title"><a href="https://erik.wiffin.com/posts/vibecoding-audit/">Vibecoding Audit</a></h2>
+    
+  </header>
+  <section>
+    <div class="c-article__summary">
+      I spent the holidays building an event platform with an AI &ldquo;vibecoding&rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.
+    </div>
+    <a href="https://erik.wiffin.com/posts/vibecoding-audit/" class="c-article__btn p-list-article__btn">Read more</a>
+  </section>
 </article>
+
+
+
+<nav class="c-pagination p-pagination">
+  <div class="c-pagination__ctrl">
+    <div class="c-pagination__newer">
+      
+    </div>
+    <div class="c-pagination__older">
+      
+    </div>
+  </div>
+  
+</nav>
+
   </main>
   
 

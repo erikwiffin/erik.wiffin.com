@@ -4,7 +4,10 @@ date: 2025-01-19
 tags:
   - ai
   - audit
-hidden: true
+  - testing
+  - seo
+summary: |
+  I spent the holidays building an event platform with an AI "vibecoding" tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.
 ---
 
 
@@ -22,9 +25,7 @@ If you want to follow along at home, I’ve made the codebase public [here](http
 
 ## Audit Summary
 
-Overall, I’m pretty impressed by this application, and the distance between here and something that could be run in production is not far. The biggest issues were a lack of distinct production and development environments, a missing or non-functional test suite, and some SEO bugs that would be a significant issue for a B2C application like this. Nothing I found was anything that couldn’t be resolved in a couple of days by an experienced software developer, and I frequently found myself asking the coding agent to fix issues as I discovered them since the barrier to doing so was so low.
-
-[![guys, i'm under attack](./guys,%20i'm%20under%20attack.png)](https://x.com/leojrr/status/1901560276488511759)
+Overall, I’m pretty impressed by this application, and the distance between here and something that could be run in production is not far. The biggest issues were a **lack of distinct production and development environments**, a **missing or non-functional test suite**, and some **SEO bugs that would be a significant issue for a B2C application** like this. Nothing I found was anything that couldn’t be resolved in a couple of days by an experienced software developer, and I frequently found myself asking the coding agent to fix issues as I discovered them since the barrier to doing so was so low.
 
 ## Production vs. Development Environments
 
@@ -34,7 +35,7 @@ The production application running at [https://event-connect-gather.lovable.app/
 
 The past year has had several pretty public examples of AI agents dropping production databases, so I have to say that I am not yet prepared to trust them with that kind of access. Beyond that though, it means that features that are currently under development by the coding agent can’t make any database schema changes without potentially bringing down the production application.
 
-Recommendation: Thankfully Lovable makes all the generated code available in a connected github repository. From here, I would stand up a deployment pipeline connected to a completely standalone production environment.
+*Recommendation: Thankfully Lovable makes all the generated code available in a connected github repository. From here, I would stand up a deployment pipeline connected to a completely standalone production environment.*
 
 ## Testing
 
@@ -44,12 +45,11 @@ Without being prompted, the coding agent didn’t write any unit or integration 
 
 Particularly in the world of AI-driven development, a solid test suite is key to making sure that previously working functionality doesn’t suddenly break when a new feature is added. Other coding agents can even incorporate automated tests into the development lifecycle, checking their own work as they go.
 
-Recommendation: This is an area where human intervention is probably necessary. Having someone go through the core functionality of the app, verify that it’s working, and write automated tests would give me the confidence to let the coding agent run wild with new functionality. These automated tests should be incorporated into the deployment pipeline mentioned above, particularly since the coding agent can’t run them itself.
+*Recommendation: This is an area where human intervention is probably necessary. Having someone go through the core functionality of the app, verify that it’s working, and write automated tests would give me the confidence to let the coding agent run wild with new functionality. These automated tests should be incorporated into the deployment pipeline mentioned above, particularly since the coding agent can’t run them itself.*
 
 ## SEO
 
 This is a consumer facing application where I would expect 90% of inbound traffic to come from searches like “things to do in my city tonight”. Getting the SEO right so that search engines can serve up Gather events for those queries is crucial.
-
 
 ![SEO social previews](./seo-social-previews.png)
 
@@ -58,7 +58,7 @@ One of the last steps in my development process was to ask the coding agent to d
 * Meta tags were incorrectly configured, individual pages would show in search engines with the same title and description as the application homepage.  
 * The sitemap was missing individual event pages. Unless crawlers lucked out and saw events on the explore page, there would be no way of discovering the long tail of events.
 
-Recommendation: Fix these issues and set up something like the Google Search Console. The Search Console gives you insights into how the Google crawler sees your website and can be used to debug issues down the road when the events catalog is bigger and these details start to matter more.
+*Recommendation: Fix these issues and set up something like the Google Search Console. The Search Console gives you insights into how the Google crawler sees your website and can be used to debug issues down the road when the events catalog is bigger and these details start to matter more.*
 
 ## Everything Else
 
