@@ -1,5 +1,5 @@
 ---
-title: Plan and Execute
+title: "Building Chart Chat with Plan and Execute"
 date: 2026-03-30
 tags:
   - chart chat
@@ -11,12 +11,12 @@ tags:
   - programming
 thumbnail: "/images/plan-and-execute-diagram.png"
 summary: |
-  Lessons learned from building an agentic charting tool using the "Plan and Execute" software pattern.
+  Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.
 ---
 
 This will be the first in a series of articles about a tool I built called Chart Chat. Chart Chat is a conversational chart builder. You give it a data source, describe how you want it visualized, and a clever robot writes all the chart drawing code for you.
 
-![Plan and Execute Diagram][image1]
+![A recording of the Chart Chat application in action][image1]
 
 This first article will be an overview of what I built, how I built it, and the ~~friends I made~~ things I learned along the way.
 
@@ -30,7 +30,7 @@ I built this tool to explore an agentic software development pattern called Plan
 
 This is a powerful pattern for building tools like Lovable or Claude Code. It allows LLMs to complete complex, multi-step work without accumulating an unwieldy amount of context. It’s composable, so each handler can be improved independently. It gives the system a chance to reflect on the output and confirm that the requested task has actually been completed. It’s also a great way to burn *a lot* of tokens.
 
-![Chart Chat Recording][image2]
+![A diagram of the Plan-and-Execute loop][image2]
 
 At a high level, it’s a pretty straightforward pattern. The core loop only needs three prompts, most of the tool use is limited to the execute step, and you can review the plan as it goes along to make sure your agents aren’t going completely off the rails. LangGraph even had [a tutorial](https://web.archive.org/web/20260113130650/https://langchain-ai.github.io/langgraph/tutorials/plan-and-execute/plan-and-execute/) for how to set it all up (although they’ve since taken it down). As with most software, though, the devil is in the (implementation) details. Plan-and-execute is simple in concept, but the real work is in tooling, observability, and model/harness tradeoffs.
 
@@ -46,9 +46,9 @@ Once the other two pieces are working, [Replan](https://github.com/erikwiffin/ch
 
 This is obvious, but it still bears repeating. There are a lot of moving parts here and they all feed into each other. The three-agent loop is complicated enough, but this is an asynchronous workflow that has to coordinate chart state management, streaming LLM responses, pushing updates to the UI, and possible user interruption at any point.
 
-![][image3]
+![LiteLLM dashboard showing prompt logging and cost tracking][image3]
 
-I used LiteLLM as an LLM gateway because it gave me prompt logging, tagging, cost tracking, and was easy to set up and run locally. Using it to review LLM requests and responses was invaluable while debug multi-step executions with chains of tool calls. It was also helpful as an LLM router, letting me switch model providers with a simple configuration change. All that being said, the out-of-the-box logging view leaves a lot to be desired. If I keep working on this project, a custom UI that consumes LiteLLM's API and is tailored to these requests would go a long way toward making the debug loop manageable.
+I used LiteLLM as an LLM gateway because it gave me prompt logging, tagging, cost tracking, and was easy to set up and run locally. Using it to review LLM requests and responses was invaluable while debugging multi-step executions with chains of tool calls. It was also helpful as an LLM router, letting me switch model providers with a simple configuration change. All that being said, the out-of-the-box logging view leaves a lot to be desired. If I keep working on this project, a custom UI that consumes LiteLLM's API and is tailored to these requests would go a long way toward making the debug loop manageable.
 
 ```bash
 $ uv run chart-chat plan 19 "Filter out non-coal commodity types"
@@ -118,6 +118,6 @@ My biggest takeaway from this project was that even for a small project like thi
 
 Part 2 in this series will be a bit more philosophical, digging into some conceptual challenges agent orchestration faces and how some traditional software development practices struggle to incorporate LLMs productively.
 
-[image1]: plan-and-execute-diagram.png
-[image2]: chart-chat-recording.gif
+[image1]: chart-chat-recording.gif
+[image2]: plan-and-execute-diagram.png
 [image3]: lite-llm-screenshot.png

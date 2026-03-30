@@ -11,11 +11,11 @@
     <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/tags/llms/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Plan and Execute</title>
-      <link>https://erik.wiffin.com/posts/plan-and-execute/</link>
+      <title>Building Chart Chat with Plan and Execute</title>
+      <link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/plan-and-execute/</guid>
-      <description>Lessons learned from building an agentic charting tool using the &amp;ldquo;Plan and Execute&amp;rdquo; software pattern.</description>
+      <guid>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</guid>
+      <description>Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.</description>
     </item>
     <item>
       <title>AI Strategy &amp; Implementation</title>

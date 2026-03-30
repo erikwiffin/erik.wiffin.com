@@ -4,20 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Plan and Execute</title>
-  <meta property="og:title" content="Plan and Execute" />
-  <meta name="twitter:title" content="Plan and Execute" />
+  <title>Building Chart Chat with Plan and Execute</title>
+  <meta property="og:title" content="Building Chart Chat with Plan and Execute" />
+  <meta name="twitter:title" content="Building Chart Chat with Plan and Execute" />
   
 
   
-  <meta name="description" content="Lessons learned from building an agentic charting tool using the &ldquo;Plan and Execute&rdquo; software pattern.">
-  <meta property="og:description" content="Lessons learned from building an agentic charting tool using the &ldquo;Plan and Execute&rdquo; software pattern.">
-  <meta name="twitter:description" content="Lessons learned from building an agentic charting tool using the &ldquo;Plan and Execute&rdquo; software pattern.">
+  <meta name="description" content="Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.">
+  <meta property="og:description" content="Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.">
+  <meta name="twitter:description" content="Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.">
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/posts/plan-and-execute/" />
+  <meta property="og:url" content="https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/" />
 
   
   <meta property="og:image" content="https://erik.wiffin.com/images/plan-and-execute-diagram.png" />
@@ -72,7 +72,7 @@ if (!doNotTrack) {
 
 <article class="p-article">
   <header>
-    <h1>Plan and Execute</h1>
+    <h1>Building Chart Chat with Plan and Execute</h1>
   </header>
   
   <section id="js-article-meta" class="p-article__meta">
@@ -177,7 +177,7 @@ if (!doNotTrack) {
   <section id="js-article" class="p-article__body">
     <p>This will be the first in a series of articles about a tool I built called Chart Chat. Chart Chat is a conversational chart builder. You give it a data source, describe how you want it visualized, and a clever robot writes all the chart drawing code for you.</p>
 <p><p class="md__image">
-  <img src="plan-and-execute-diagram.png" alt="Plan and Execute Diagram"  />
+  <img src="chart-chat-recording.gif" alt="A recording of the Chart Chat application in action"  />
 </p>
 </p>
 <p>This first article will be an overview of what I built, how I built it, and the <del>friends I made</del> things I learned along the way.</p>
@@ -190,7 +190,7 @@ if (!doNotTrack) {
 </ol>
 <p>This is a powerful pattern for building tools like Lovable or Claude Code. It allows LLMs to complete complex, multi-step work without accumulating an unwieldy amount of context. It’s composable, so each handler can be improved independently. It gives the system a chance to reflect on the output and confirm that the requested task has actually been completed. It’s also a great way to burn <em>a lot</em> of tokens.</p>
 <p><p class="md__image">
-  <img src="chart-chat-recording.gif" alt="Chart Chat Recording"  />
+  <img src="plan-and-execute-diagram.png" alt="A diagram of the Plan-and-Execute loop"  />
 </p>
 </p>
 <p>At a high level, it’s a pretty straightforward pattern. The core loop only needs three prompts, most of the tool use is limited to the execute step, and you can review the plan as it goes along to make sure your agents aren’t going completely off the rails. LangGraph even had <a href="https://web.archive.org/web/20260113130650/https://langchain-ai.github.io/langgraph/tutorials/plan-and-execute/plan-and-execute/">a tutorial</a> for how to set it all up (although they’ve since taken it down). As with most software, though, the devil is in the (implementation) details. Plan-and-execute is simple in concept, but the real work is in tooling, observability, and model/harness tradeoffs.</p>
@@ -201,10 +201,10 @@ if (!doNotTrack) {
 <h2 id="debugging-and-observability-are-key">Debugging and Observability are key</h2>
 <p>This is obvious, but it still bears repeating. There are a lot of moving parts here and they all feed into each other. The three-agent loop is complicated enough, but this is an asynchronous workflow that has to coordinate chart state management, streaming LLM responses, pushing updates to the UI, and possible user interruption at any point.</p>
 <p><p class="md__image">
-  <img src="lite-llm-screenshot.png" alt=""  />
+  <img src="lite-llm-screenshot.png" alt="LiteLLM dashboard showing prompt logging and cost tracking"  />
 </p>
 </p>
-<p>I used LiteLLM as an LLM gateway because it gave me prompt logging, tagging, cost tracking, and was easy to set up and run locally. Using it to review LLM requests and responses was invaluable while debug multi-step executions with chains of tool calls. It was also helpful as an LLM router, letting me switch model providers with a simple configuration change. All that being said, the out-of-the-box logging view leaves a lot to be desired. If I keep working on this project, a custom UI that consumes LiteLLM&rsquo;s API and is tailored to these requests would go a long way toward making the debug loop manageable.</p>
+<p>I used LiteLLM as an LLM gateway because it gave me prompt logging, tagging, cost tracking, and was easy to set up and run locally. Using it to review LLM requests and responses was invaluable while debugging multi-step executions with chains of tool calls. It was also helpful as an LLM router, letting me switch model providers with a simple configuration change. All that being said, the out-of-the-box logging view leaves a lot to be desired. If I keep working on this project, a custom UI that consumes LiteLLM&rsquo;s API and is tailored to these requests would go a long way toward making the debug loop manageable.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ uv run chart-chat plan <span style="color:#ae81ff">19</span> <span style="color:#e6db74">&#34;Filter out non-coal commodity types&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Planning: <span style="color:#e6db74">&#34;Filter out non-coal commodity types&#34;</span>
