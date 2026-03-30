@@ -4,7 +4,7 @@ slug: "ai-strategy-and-implementation"
 date: 2024-06-27
 tags:
 - AI
-- LLM
+- LLMs
 - Strategy
 - Services
 thumbnail: /images/kaleidico-3V8xo5Gbusk-unsplash.jpg

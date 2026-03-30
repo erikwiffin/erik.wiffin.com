@@ -2,22 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://erik.wiffin.com/tags/agentic-software/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/chart-chat/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/generative-ai/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/llms/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/plan-and-execute/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/plan-and-execute/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/programming/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/software-patterns/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://erik.wiffin.com/tags/ai/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/audit/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/</loc>
-    <lastmod>2025-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/posts/</loc>
-    <lastmod>2025-01-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/tags/seo/</loc>
-    <lastmod>2025-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/testing/</loc>
@@ -41,20 +65,11 @@
     <loc>https://erik.wiffin.com/ai-strategy-and-implementation/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/tags/llm/</loc>
-    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/tags/services/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/strategy/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/generative-ai/</loc>
-    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/llms/</loc>
-    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/management/</loc>
     <lastmod>2024-05-21T00:00:00+00:00</lastmod>
@@ -135,9 +150,6 @@
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/pandas/</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/programming/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/python/</loc>

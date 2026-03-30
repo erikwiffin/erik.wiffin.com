@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agentic software on erik.wiffin</title>
+    <link>https://erik.wiffin.com/tags/agentic-software/</link>
+    <description>Recent content in agentic software on erik.wiffin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Erik Wiffin 2026.
+</copyright>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://erik.wiffin.com/tags/agentic-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan and Execute</title>
+      <link>https://erik.wiffin.com/posts/plan-and-execute/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/posts/plan-and-execute/</guid>
+      <description>Lessons learned from building an agentic charting tool using the &amp;ldquo;Plan and Execute&amp;rdquo; software pattern.</description>
+    </item>
+  </channel>
+</rss>

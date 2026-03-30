@@ -8,8 +8,57 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>agentic software</title>
+      <link>https://erik.wiffin.com/tags/agentic-software/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/agentic-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>chart chat</title>
+      <link>https://erik.wiffin.com/tags/chart-chat/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/chart-chat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>generative-ai</title>
+      <link>https://erik.wiffin.com/tags/generative-ai/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>https://erik.wiffin.com/tags/llms/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>plan-and-execute</title>
+      <link>https://erik.wiffin.com/tags/plan-and-execute/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/plan-and-execute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>https://erik.wiffin.com/tags/programming/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software patterns</title>
+      <link>https://erik.wiffin.com/tags/software-patterns/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/software-patterns/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://erik.wiffin.com/tags/ai/</link>
@@ -60,13 +109,6 @@
       <description></description>
     </item>
     <item>
-      <title>LLM</title>
-      <link>https://erik.wiffin.com/tags/llm/</link>
-      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Services</title>
       <link>https://erik.wiffin.com/tags/services/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
@@ -78,20 +120,6 @@
       <link>https://erik.wiffin.com/tags/strategy/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/tags/strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>generative-ai</title>
-      <link>https://erik.wiffin.com/tags/generative-ai/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/generative-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>llms</title>
-      <link>https://erik.wiffin.com/tags/llms/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/llms/</guid>
       <description></description>
     </item>
     <item>
@@ -225,13 +253,6 @@
       <link>https://erik.wiffin.com/tags/pandas/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/tags/pandas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>programming</title>
-      <link>https://erik.wiffin.com/tags/programming/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/programming/</guid>
       <description></description>
     </item>
     <item>
