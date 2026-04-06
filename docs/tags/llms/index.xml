@@ -8,8 +8,15 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your AI Agent is a Distributed System</title>
+      <link>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</guid>
+      <description>Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.&#xA;Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.</description>
+    </item>
     <item>
       <title>Building Chart Chat with Plan and Execute</title>
       <link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
