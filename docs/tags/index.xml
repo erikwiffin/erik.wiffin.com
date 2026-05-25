@@ -8,8 +8,43 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://erik.wiffin.com/tags/ai/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>chart chat</title>
+      <link>https://erik.wiffin.com/tags/chart-chat/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/chart-chat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>https://erik.wiffin.com/tags/llms/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>management</title>
+      <link>https://erik.wiffin.com/tags/management/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategy</title>
+      <link>https://erik.wiffin.com/tags/strategy/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/tags/strategy/</guid>
+      <description></description>
+    </item>
     <item>
       <title>agentic software</title>
       <link>https://erik.wiffin.com/tags/agentic-software/</link>
@@ -18,24 +53,10 @@
       <description></description>
     </item>
     <item>
-      <title>chart chat</title>
-      <link>https://erik.wiffin.com/tags/chart-chat/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/chart-chat/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>generative-ai</title>
       <link>https://erik.wiffin.com/tags/generative-ai/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/tags/generative-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLMs</title>
-      <link>https://erik.wiffin.com/tags/llms/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/llms/</guid>
       <description></description>
     </item>
     <item>
@@ -57,13 +78,6 @@
       <link>https://erik.wiffin.com/tags/software-patterns/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/tags/software-patterns/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://erik.wiffin.com/tags/ai/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -113,20 +127,6 @@
       <link>https://erik.wiffin.com/tags/services/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://erik.wiffin.com/tags/services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Strategy</title>
-      <link>https://erik.wiffin.com/tags/strategy/</link>
-      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>management</title>
-      <link>https://erik.wiffin.com/tags/management/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/tags/management/</guid>
       <description></description>
     </item>
     <item>

@@ -4,27 +4,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Your AI Agent is a Distributed System</title>
-  <meta property="og:title" content="Your AI Agent is a Distributed System" />
-  <meta name="twitter:title" content="Your AI Agent is a Distributed System" />
+  <title>You are Failing at AI Because You Haven’t Built a Learning Organization</title>
+  <meta property="og:title" content="You are Failing at AI Because You Haven’t Built a Learning Organization" />
+  <meta name="twitter:title" content="You are Failing at AI Because You Haven’t Built a Learning Organization" />
   
 
   
-  <meta name="description" content="Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.
-Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.">
-  <meta property="og:description" content="Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.
-Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.">
-  <meta name="twitter:description" content="Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.
-Reframing it as a distributed …">
+  <meta name="description" content="LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.">
+  <meta property="og:description" content="LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.">
+  <meta name="twitter:description" content="LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the …">
   
 
   <meta name="author" content="Erik Wiffin"/>
   <meta property="og:site_name" content="erik.wiffin" />
-  <meta property="og:url" content="https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/" />
+  <meta property="og:url" content="https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/" />
 
-  
-  <meta property="og:image" content="https://erik.wiffin.com/images/distributed-system.png" />
-  <meta name="twitter:image" content="https://erik.wiffin.com/images/distributed-system.png" />
   
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -75,7 +69,7 @@ if (!doNotTrack) {
 
 <article class="p-article">
   <header>
-    <h1>Your AI Agent is a Distributed System</h1>
+    <h1>You are Failing at AI Because You Haven’t Built a Learning Organization</h1>
   </header>
   
   <section id="js-article-meta" class="p-article__meta">
@@ -83,8 +77,8 @@ if (!doNotTrack) {
       
         <div class="c-time">
           Posted on
-<time datetime="2026-04-06T00:00:00Z">
-  Apr 6, 2026
+<time datetime="2026-05-25T00:00:00Z">
+  May 25, 2026
 </time>
 
         </div>
@@ -98,7 +92,7 @@ if (!doNotTrack) {
       
       &bull;
       
-      <a href="https://erik.wiffin.com/tags/generative-ai" class="c-tag">generative-ai</a>
+      <a href="https://erik.wiffin.com/tags/ai" class="c-tag">ai</a>
       
       
       &bull;
@@ -108,22 +102,12 @@ if (!doNotTrack) {
       
       &bull;
       
-      <a href="https://erik.wiffin.com/tags/plan-and-execute" class="c-tag">plan-and-execute</a>
+      <a href="https://erik.wiffin.com/tags/management" class="c-tag">management</a>
       
       
       &bull;
       
-      <a href="https://erik.wiffin.com/tags/software-patterns" class="c-tag">software patterns</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/agentic-software" class="c-tag">agentic software</a>
-      
-      
-      &bull;
-      
-      <a href="https://erik.wiffin.com/tags/programming" class="c-tag">programming</a>
+      <a href="https://erik.wiffin.com/tags/strategy" class="c-tag">strategy</a>
       
     </div>
     
@@ -178,57 +162,54 @@ if (!doNotTrack) {
 
   </section>
   <section id="js-article" class="p-article__body">
-    <p>This is Part 2 in <a href="/tags/chart-chat/">a series</a> of articles I’m writing about an app I built called Chart Chat. <a href="/posts/building-chart-chat-with-plan-and-execute/">Part 1</a> is a technical breakdown of the agentic software pattern that I used to build the app. This piece will be a bit of a higher-level exploration of a conceptual mistake I made when I started this project that left me feeling stuck and how I had to rethink my approach to get moving again.</p>
-<p>On its surface, Chart Chat is a simple application. It has two inputs: a text field and a data source; and two outputs: a response message and a chart. There’s some AI magic in the middle, but that’s “just an API call”, so there’s nothing to worry about.</p>
-<p><p class="md__image">
-  <img src="chart-chat-diagram-simple.png" alt="System diagram of Chart Chat (simple)"  />
-</p>
-</p>
-<p>We’ll get back to that “just” in a minute, so bear with me. I went about building this app the way I normally would: there&rsquo;s a frontend, a backend, an API layer, a database, and a domain model at the heart of it all. Most of these parts are things I’m very familiar with; I <a href="https://mcfunley.com/choose-boring-technology">chose boring technology</a> for most of the application and saved my innovation tokens for the plan-and-execute loop that I wrote about in Part 1.</p>
-<p>As I got started, most things moved very quickly. Claude Code is great at assembling the boilerplate of an application, I had already worked out the proof of concept of the agent in a Jupyter notebook, and I very quickly had a skeleton of Chart Chat up and running. Right as I got to this point though, everything suddenly got a lot harder and everything started taking a lot more time than I expected.</p>
-<p>Debugging was a challenge. I was using LiteLLM to log LLM completions, but sometimes they wouldn’t show up. When they did show up, I would be overwhelmed by long conversation chains that I couldn’t follow, or random requests that consumed orders of magnitude more tokens than I was expecting. When things went wrong, issues took forever to track down and resolving them felt like trying to fix a broken clock through a keyhole.</p>
-<p>I was missing something.</p>
-<h2 id="phase-collapse">Phase Collapse</h2>
-<p>Before I get to how I solved my problems and got the project moving again, I’m going to take a quick detour to talk about a well known phrase in software development:</p>
-<p>Make it work.<br>
-Make it right.<br>
-Make it fast.<br>
-In that order.</p>
-<p>This rule has been around in some form or other since the 1980s. In practice, it means that software developers should first start with a rough working example of their solution. <em>Then</em>, clean up code, add error handling, and make sure that it does exactly what it’s supposed to do. <em>Finally</em>, implement any performance improvements necessary to get it running fast enough to be fit for purpose. In my experience, any other approach will be an exercise in “one step forward, two steps back”. Highly tuned performance optimizations will be undone when you find out that an edge case can’t be handled in that way. Too much time will be spent on the perfect conceptual model and no software ever ships. And so on.</p>
-<p>It’s a good rule.</p>
-<p>When I got stuck in Chart Chat, it felt like I was dealing with a collapse in the three phases. Getting my app to “work” wasn’t enough, because if my agent generated a plan that wasn’t “right”, no amount of LLM usage could accomplish my goals. If the application wasn’t “fast”, then it would take too long to reach later steps of complicated plans, and my testing loop would take too long to be useful.</p>
-<p>For example: in an attempt to save money, I decided to switch mid-project from using Anthropic’s Sonnet model ($3 / MTok in, $15 / MTok out) to an open weight model running on my local machine (free, if you don’t count my power bill). That switch threw a spotlight on all my sloppy prompting. Sonnet’s pretty smart, and a lot of things just worked because it was capable enough to understand the intent behind conflicting instructions and reliable enough to consistently solve the task at hand.</p>
-<p>The first problem I ran into wasn’t even in my Plan-and-Execute harness. It was in a simple “summarize this request” prompt to generate a status update - a task we’ve been running successfully since the early days of GPT 3. The prompt I had written looked something like this:</p>
-<blockquote>
-<p>Summarize the user request in 4 to 5 words that I can use as a status update. Example: “reviewing data”.</p>
-</blockquote>
-<p>Attentive readers will notice that “reviewing data” is not in fact 4 to 5 words. My local model got trapped in a reasoning loop where it would thrash back and forth between 2 and 5 word summaries as it reacted to conflicting instructions.</p>
-<p>In retrospect, this has an easy fix, but it took a while to track down. Because task summarization only happens on an execute step and LiteLLM only logs a request once it’s complete, the observed behavior was that I would send a message to my agent, it would successfully generate a plan, and then it would hang for a couple minutes while my GPU turned into a personal heater.</p>
-<p>I had gotten it to <em>work</em>. Sonnet was able to generate a summary and my local model sometimes figured it out. But it was not <em>right</em>. “Two” is not included in “four to five”. And it was not fast. 5 minutes to see a timeout message makes for a painful debugging process. Right and fast had transitioned from something I could deal with later to things that were immediately necessary to make any progress at all.</p>
-<h2 id="conceptual-breakthrough">Conceptual breakthrough</h2>
-<p>So, to recap: I’m exploring a new software pattern, I have a working (sometimes) skeleton of an application, but I’m struggling to make progress and constantly getting derailed by tedious debugging exercises.</p>
-<p>When I find myself in this position, I’ve learned to recognize that there’s a good chance I’ve made a fundamental mistake in my model of the problem. <a href="https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation">The map did not match the territory</a>.</p>
-<p>It finally clicked for me when I realized that I was building a distributed system. The “simple app” that I thought I was building was actually a complicated set of independent parts that all needed to communicate.</p>
-<p><p class="md__image">
-  <img src="chart-chat-diagram-complicated.png" alt="System diagram of Chart Chat (complicated)"  />
-</p>
-</p>
-<p>I don’t want to overplay my hand here; Distributed Systems are <em>A Thing</em> and putting that label on my toy project implies certain things about what I’ve built and how all the pieces coordinate. That being said, thinking about this project in that way helped me find a way out of my phase collapse problem and I started making progress again.</p>
-<p>Distributed systems come with certain considerations that felt appropriate to this project. How do various services communicate? What is happening inside a single component irrespective of the rest of the system? What state is shared, and how can that be minimized as much as possible?</p>
-<pre tabindex="0"><code>$ uv run chart-chat
-Usage: chart-chat [OPTIONS] COMMAND [ARGS]...
-
-  Chart Chat CLI tools.
-
-Options:
-  --help  Show this message and exit.
-
-Commands:
-  execute           Run one execute step for PROJECT_ID with the given STEP.
-  plan              Run the plan step for PROJECT_ID with the given DIRECTIVE.
-  replan            Run the replan step for PROJECT_ID with objective,...
-</code></pre><p>The first thing I did after this reframe was break each agent into a standalone script that I could run independently of the rest of the system. The phases immediately uncollapsed. I was able to iterate on individual components that let me get them from working, to right, to fast. Even the act of breaking out each individual agent was useful; it forced me to think clearly about what each agent needed to run, and made it obvious when I was passing along more information than needed, just because it was easy. When I stepped back and ran the entire system, it was easier to debug issues since I could confirm that each part was behaving the way it was supposed to.</p>
-<p>I don’t think I’ve ever <em>noticed</em> phase collapse quite so directly in my work before. I’m sure it’s happened, but approaching Chart Chat as a learning project has made me a lot more aware of the process of the work. Chart Chat is not a commercial tool, no one will ever make any money off it directly. The value of this project will come from the insight I gained; and that insight will inform any future work I do with LLMs and agentic development. Part 3 of this series will explore how this learning mindset is going to be crucial for software developers and even <em>organizations</em> as our industry evolves to incorporate these new tools that are suddenly showing up everywhere.</p>
+    <p>Stop me if you’ve heard this one before. Your boss comes to you and says “This AI thing, it’s kind of a big deal, we should do an AI.” So you do an AI.</p>
+<p>You connect a chat bot to a knowledge base, you add a sparkle emoji to a text box, whatever. You do an internal demo, and it’s <em>amazing</em>. “Wow, this is basically magic.” So obviously, you ship it.</p>
+<p>It works for some users, but it mostly fails in weird ways that no one expects. Your team makes an effort to fix it, but priorities have shifted, and it’s slowly forgotten..</p>
+<p>A couple quarters later, someone else says “we should do an AI,” and the whole cycle starts over.</p>
+<p>Recently, I’ve written about an AI app I built called Chart Chat. Parts <a href="https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/">one</a> and <a href="https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/">two</a> are technical dives into how I built it and the lessons I learned along the way. Now, let’s take a look at how developing a tool like Chart Chat would play out in an organization. You won’t find any code or architecture diagrams here.</p>
+<h3 id="why-ai-development-doesnt-work-the-way-you-think">Why AI development doesn&rsquo;t work the way you think</h3>
+<p>There’s a reason my opening anecdote sounds familiar. In a traditional software development project, we could be confident  that a proof of concept meant that something was possible and that an impressive demo could be translated into working software. Many software projects still failed. The <a href="https://en.wikipedia.org/wiki/Pareto_principle">Pareto Principle</a> guaranteed that however promising your demo, there was still lots of work to do. But the process was familiar and those of us with experience had a gut sense of the work ahead.</p>
+<p>LLMs have completely destroyed that intuition.</p>
+<p><strong>Prototyping speed is misleading.</strong> LLMs have dramatically accelerated how fast you can get a working demo. An afternoon of work can produce something that looks like 80% of the finished product. But the remaining 20% takes longer than it used to–it’s more complex than it appears and our estimates aren’t prepared to capture it.</p>
+<p><strong>The normal development sequence breaks down.</strong> In traditional software, you can build an initial version, clean it up, and optimize it, roughly in that order. With AI systems, these phases collapse into each other. Quality problems cause functional failures. Speed is a prerequisite for debugging, not a polish step.</p>
+<p><strong>The cost of the demo is not the cost of production.</strong> The model that made the demo look great might be too expensive to run at scale. Cheaper models introduce new categories of failure.</p>
+<p>I experienced all of this while building Chart Chat. I had a working end-to-end demo in a few hours. It had complicated state management that would have taken me all day if I’d been doing it by hand. I was able to pull together a couple libraries and have “an agent” plan and do work in response to a simple prompt.</p>
+<p>I then spent the next couple of weeks chasing weird edge case bugs like “don’t draw an x-axis so big that it’s mostly representing values outside of our dataset”. <a href="https://dl.acm.org/doi/10.1145/3563657.3596138">Like herding cats</a>, I’d fix one bug only for an old one to resurface.</p>
+<h3 id="nobody-is-an-expert-yet">Nobody is an expert yet</h3>
+<p>None of the above issues are insurmountable, but as with everything, it will take time to develop the experience and intuition to make working with LLMs second nature. In the meantime, your instinct is going to be to hire someone who is already there. Or to buy a course for your team, and then execute. That playbook won’t work here.</p>
+<p>The landscape is shifting faster than expertise can take root. The tools your team learns this quarter will be obsolete next quarter and best practices are being written in real time.</p>
+<p>I see a few patterns of failure showing up in response to this situation:</p>
+<p><strong>Hire an AI person, and they’ll handle it.</strong> The problem is, you don’t know the field well enough to evaluate them, and you can’t rely on a track record that is <em>at best</em> 3 years old, built mostly on technology that is <em>already out of date</em>.</p>
+<p><strong>Wait until this matures.</strong> It feels prudent in the moment, but it means you’re falling behind competitors who are learning by doing. The learning itself is the asset, and you can’t catch up by reading about it later.</p>
+<p><strong>Take a single training course.</strong> A course or a couple blog posts might be enough to jump start things if you’re far enough behind, but the best models are never more than a couple months old and the patterns for working with them change almost as quickly. One-time  “training” won’t help you keep up with the rapid pace of change in this environment.</p>
+<p>This is an emerging field and advantage is built on how quickly you can identify mistakes and course-correct. Not by how many you can avoid.</p>
+<p>I’ve been working with natural language processing since before LLMs existed. The state of the field now looks <em>nothing</em> like it did when I started. Chart Chat would not have been possible as recently as three years ago. Keeping pace has meant building continuous learning into both my professional and personal life. The organizations who win with AI will be the ones who create the conditions for their teams do the same.</p>
+<h3 id="what-a-learning-organization-looks-like-in-practice">What a learning organization looks like in practice</h3>
+<p>In 1996, Amy Edmondson published the results of <a href="https://www.researchgate.net/publication/250959492_Learning_from_Mistakes_Is_Easier_Said_Than_Done_Group_and_Organizational_Influences_on_the_Detection_and_Correction_of_Human_Error">a study</a> that explored the relationship between teamwork and medication errors in hospitals. She began the study with straightforward expectations: better teams would have fewer errors. What she found was that better teams, as measured by a team diagnostic survey, reported higher error rates, not lower ones. This forced her to reconsider whether better teams actually made more mistakes or were simply more willing and able to talk about them.</p>
+<p>The best teams are the ones where people feel safe enough to surface problems, admit mistakes, and discuss them openly. This is true in every field–not just medicine–and Edmondson’s research gives us a useful foundation for building a learning organization:</p>
+<p><strong>Psychological safety as the substrate.</strong> Learning depends on people’s willingness to ask questions, admit confusion, and report failures. Without that, information stays hidden.</p>
+<p><strong>Slack in the system.</strong> People need space to learn. That means intentionally creating room for curiosity: things like 20% time to work on self-directed projects, cross-team discussions to bring in outside perspectives, and regular retrospectives to reflect on what’s working.Without that breathing room, the learning won’t happen.</p>
+<p><strong>Response to mistakes matters more than mistake rate.</strong> Organizations learn more effectively when they respond to mistakes with analysis and curiosity, rather than with automatic blame. Looking at mistakes this way helps teams separate preventable errors from failures that lead to useful insight.</p>
+<h3 id="you-need-a-learning-organization-most-when-its-hardest-to-build-one">You need a learning organization most when it’s hardest to build one</h3>
+<p>Nothing I’ve written so far is new. No one expects everyone in their company to instantly be AI experts. Mountains of research give us insight into how to build an adaptive and flexible organization that learns from its mistakes.</p>
+<p>While all of that is true, it doesn’t mean it’s easy.</p>
+<p>We’re living in an echo chamber that’s screaming “if you don’t adopt AI, your competitors will and your company will fail and everyone will get laid off.” This kind of existential pressure is lethal to everything I’ve described so far. Psychological safety is shot. Instead of 20% time, companies are switching to 996 work schedules. They demand certainty, and consider mistakes unacceptable.</p>
+<p>The conditions surrounding AI adoption–urgency, fear, hype, competitive pressure–are the <em>worst possible conditions</em> for becoming a learning organization. Yet, <em>being a learning organization is what matters most right now.</em></p>
+<p>We have to be intentional about counterbalancing these conditions. That means:</p>
+<p><strong>Creating space for failure when failure feels most dangerous.</strong> Edmondson created a taxonomy of failure. She distinguished intelligent failures (necessary experiments in new territory), basic failures (preventable errors in known domains), and complex failures (systemic breakdowns from multiple factors). The best learning organizations don&rsquo;t lump these together. They minimize basic and complex failures while deliberately increasing the rate of intelligent ones–they know that this is where innovation comes from.</p>
+<p><strong>Giving people time to internalize what they learn.</strong> Speed matters, but sprinting from one experiment to the next without reflection produces motion, not learning. People need time to be thoughtful, to connect what they just discovered to the broader picture.</p>
+<p><strong>Recognizing that your people are going through their own paradigm shift.</strong> Your engineers, designers, and product managers are renegotiating their own relationship with their craft. The tools they mastered are being redefined. That’s disorienting. A leader who treats this adjustment as a problem to manage, rather than a transition to support, will get compliance but not the creative engagement that learning requires.</p>
+<p>I have the great fortune of being able to explore new tools without having to report to anyone. That’s a big win for psychological safety. That being said, I’m still listening to the same drumbeat of warnings that AI is going to take all our jobs and that I need to completely reinvent my personal development workflow to keep up. Projects like Chart Chat are how I try to recontextualize this shift into playful learning. The gap between an interesting idea and its tangible expression is smaller than ever, so what do I want to create?</p>
+<p>There will be failures. When I finished this project, on a whim, I asked Claude to build me a chart. In about 5 minutes, it made a <a href="https://claude.ai/public/artifacts/e82b7c40-9c3a-4750-adb1-58232226824e">better looking chart with fewer bugs</a> than anything Chart Chat could. But that’s okay, because today I’m using the tools and techniques that I learned to build an agentic chatbot for a client that’s solving real problems.</p>
+<h3 id="ask-yourself-is-our-organization-learning">Ask yourself: Is our organization learning?</h3>
+<p>Do you know how you’re doing as a learning organization? You don’t need to overhaul your organization. But you should be able to answer these questions. If you can’t, then that’s your starting point.</p>
+<ul>
+<li>How long does it take your team to go from “I want to try something” to knowing whether or not it worked? If the answer is weeks, your feedback loops are too slow for how quickly this space moves.</li>
+<li>When was the last time someone on your team shared a failed experiment? If you can’t think of one, your team may not feel safe failing visibly.</li>
+<li>When you group your failures into Edmondson’s taxonomy, which group is the biggest? Too many basic failures mean that you’ve underinvested in quality management. Consistent complex failures point to broken communication. A team collecting intelligent failures like badges is a team ready to roll with anything you throw at it.</li>
+<li>Does your team want the risky projects or the safe projects? Someone needs to keep the lights on, but they should be excited–not anxious–about the experiment with the uncertain outcome.</li>
+</ul>
+<p>The companies that succeed with AI won’t be the ones that hire the smartest person or choose the best model. They’ll be the ones that develop the organizational muscle to learn continuously in an environment that’s changing faster than any individual can track.</p>
 
   </section>
   <footer>
@@ -237,12 +218,11 @@ Commands:
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/">Older</a>
+          <a href="https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/">Older</a>
           
         </div>
       </div>
@@ -252,6 +232,15 @@ Commands:
 <section class="p-related">
   <h3>See Also</h3>
   <ul id="slider" class="p-related__list">
+    
+    <li class="p-related__item js-related__item">
+      <a href="/posts/your-ai-agent-is-a-distributed-system/"
+        
+          style="background-image: url(https://erik.wiffin.com//images/distributed-system.png);"
+        >
+        <span>Your AI Agent is a Distributed System</span>
+      </a>
+    </li>
     
     <li class="p-related__item js-related__item">
       <a href="/posts/building-chart-chat-with-plan-and-execute/"
@@ -272,11 +261,29 @@ Commands:
     </li>
     
     <li class="p-related__item js-related__item">
-      <a href="/posts/design-plans-a-reference/"
+      <a href="/posts/vibecoding-audit/"
         
-          style="background-image: url(https://erik.wiffin.com//images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg);"
+          style="background-image: url(https://erik.wiffin.com//images/gather-screenshot.png);"
         >
-        <span>Design Plans: A Reference</span>
+        <span>Vibecoding Audit</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/posts/what-to-do-when-someone-tells-you-to-take-initiative/"
+        
+          style="background-image: url(https://erik.wiffin.com//images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);"
+        >
+        <span>What to do when someone tells you to &#34;take initiative&#34;</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/posts/limiting-work-in-progress-as-a-manager/"
+        
+          style="background-image: url(https://erik.wiffin.com//images/windows-SwHvzwEzCfA-unsplash.jpg);"
+        >
+        <span>Limiting Work In Progress as a Manager</span>
       </a>
     </li>
     

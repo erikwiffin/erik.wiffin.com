@@ -8,8 +8,15 @@
     <language>en-us</language>
     <copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://erik.wiffin.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You are Failing at AI Because You Haven’t Built a Learning Organization</title>
+      <link>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</guid>
+      <description>LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.</description>
+    </item>
     <item>
       <title>Proof of Thought</title>
       <link>https://erik.wiffin.com/posts/proof-of-thought/</link>
