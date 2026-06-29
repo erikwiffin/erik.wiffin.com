@@ -2,7 +2,7 @@
 title: "Proof of Thought"
 date: 2024-05-21
 tags:
-  - llms
+  - LLMs
   - generative-ai
   - meetings
   - management

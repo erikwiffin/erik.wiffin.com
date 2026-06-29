@@ -7,13 +7,13 @@
 </aside>
 {{ if isset .Site.Taxonomies "tags" }}
 {{ $mytag := .Title }}
-{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages }}
+{{ range $index, $page := (.Paginate (where (where .Data.Pages "Type" "posts") ".Params.hidden" "!=" "true")).Pages }}
 {{ if ne $index 0 }}
 {{ end }}
 {{ .Render "li" }}
 {{ end }}
 {{ else }}
-{{ range $index, $page := (.Paginate (where .Site.RegularPages "Type" "posts")).Pages }}
+{{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Type" "posts") ".Params.hidden" "!=" "true")).Pages }}
 {{ if ne $index 0 }}
 {{ end }}
 {{ .Render "li" }}

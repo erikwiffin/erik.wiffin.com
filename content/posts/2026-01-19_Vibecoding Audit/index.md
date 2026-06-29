@@ -2,7 +2,7 @@
 title: Vibecoding Audit
 date: 2025-01-19
 tags:
-  - ai
+  - AI
   - audit
   - testing
   - seo

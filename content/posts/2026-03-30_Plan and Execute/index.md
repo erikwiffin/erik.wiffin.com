@@ -4,7 +4,7 @@ date: 2026-03-30
 tags:
   - chart chat
   - generative-ai
-  - llms
+  - LLMs
   - plan-and-execute
   - software patterns
   - agentic software

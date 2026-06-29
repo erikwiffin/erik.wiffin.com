@@ -3,8 +3,8 @@ title: "You are Failing at AI Because You Haven’t Built a Learning Organizatio
 date: 2026-05-25
 tags:
   - chart chat
-  - ai
-  - llms
+  - AI
+  - LLMs
   - management
   - strategy
 summary: |

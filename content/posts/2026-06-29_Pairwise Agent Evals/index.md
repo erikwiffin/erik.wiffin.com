@@ -2,10 +2,10 @@
 title: "95% Cheaper, 75% Faster: Tuning an Agent with Pairwise Evals"
 date: 2026-06-29
 tags:
-  - ai
+  - AI
   - agentic software
   - generative-ai
-  - llms
+  - LLMs
   - evals
 thumbnail: /images/evail-ui.jpg
 summary: |

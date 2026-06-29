@@ -6,6 +6,7 @@ tags:
   - Stripe
   - Proposals
 thumbnail: "/images/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg"
+hidden: true
 ---
 In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.
 
