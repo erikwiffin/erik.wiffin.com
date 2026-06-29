@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>links on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/links/</link>
-    <description>Recent content in links on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Links on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/links/</link>
+		<description>Recent content in Links on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Evergreen Links</title>
-      <link>https://erik.wiffin.com/posts/evergreen-links/</link>
-      <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/evergreen-links/</guid>
-      <description>A collection of blog posts and resources that I’ve found useful and frequently refer back to.&#xA;Death by PowerPoint: the slide that killed seven people How to Socialize Big Changes at Work A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture The Ultimate Burnout Guide: Symptoms, Causes, and Prevention The Boy Scout Rule ~Robert C. Martin (Uncle Bob) Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule How Big Tech Runs Tech Projects and the Curious Absence of Scrum Don’t be spooky Scaling Engineering Teams via RFCs: Writing Things Down The Blue Tape List Questions for our first 1:1 How to Do Code Reviews Like a Human How to Make Your Code Reviewer Fall in Love with You The Kindly Brontosaurus World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World Taboo Your Words Making it Virtually Easy to Deploy on Day One The Picasso Principle The Elves Leave Middle Earth – Sodas Are No Longer Free </description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Evergreen Links</title>
+				<link>https://erik.wiffin.com/posts/evergreen-links/</link>
+				<pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/evergreen-links/</guid>
+				<description>&lt;p&gt;A collection of blog posts and resources that I’ve found useful and frequently refer back to.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx&#34;&gt;Death by PowerPoint: the slide that killed seven people&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chelseatroy.com/2018/02/25/how-to-socialize-big-changes-at-work-part-1-start-at-the-grassroots-level/&#34;&gt;How to Socialize Big Changes at Work&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chelseatroy.com/2018/05/24/why-your-efforts-to-make-your-company-inclusive-arent-working/&#34;&gt;A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commoncog.com/g/burnout/&#34;&gt;The Ultimate Burnout Guide: Symptoms, Causes, and Prevention&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385&#34;&gt;The Boy Scout Rule ~Robert C. Martin (Uncle Bob)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/nordstroms-employee-handbook-2014-10&#34;&gt;Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/project-management-at-big-tech/&#34;&gt;How Big Tech Runs Tech Projects and the Curious Absence of Scrum&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://therealadam.com/2021/11/01/dont-be-spooky/&#34;&gt;Don’t be spooky&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/&#34;&gt;Scaling Engineering Teams via RFCs: Writing Things Down&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://randsinrepose.com/archives/the-blue-tape-list/&#34;&gt;The Blue Tape List&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://larahogan.me/blog/first-one-on-one-questions/&#34;&gt;Questions for our first 1:1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mtlynch.io/human-code-reviews-1/&#34;&gt;How to Do Code Reviews Like a Human&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mtlynch.io/code-review-love/&#34;&gt;How to Make Your Code Reviewer Fall in Love with You&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://slate.com/human-interest/2013/08/the-kindly-brontosaurus-the-amazing-prehistoric-posture-that-will-get-you-whatever-you-want.html&#34;&gt;The Kindly Brontosaurus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.industrytap.com/worlds-15-biggest-ships-create-more-pollution-than-all-the-cars-in-the-world&#34;&gt;World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/WBdvyyHLdxZSAMmoz/taboo-your-words&#34;&gt;Taboo Your Words&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.etsy.com/codeascraft/making-it-virtually-easy-to-deploy-on-day-one/&#34;&gt;Making it Virtually Easy to Deploy on Day One&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.psychotactics.com/the-picasso-principle/&#34;&gt;The Picasso Principle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free/&#34;&gt;The Elves Leave Middle Earth – Sodas Are No Longer Free&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

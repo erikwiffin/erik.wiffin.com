@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>python on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/python/</link>
-    <description>Recent content in python on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Python on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/python/</link>
+		<description>Recent content in Python on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Data Engineering for Other People</title>
-      <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
-      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&#xA;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Data Engineering for Other People</title>
+				<link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
+				<pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
+				<description>&lt;h3 id=&#34;or-why-is-this-software-engineer-being-so-difficult&#34;&gt;Or: Why is this software engineer being so difficult?&lt;/h3&gt;&#xA;&lt;p&gt;So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&lt;/p&gt;&#xA;&lt;p&gt;&lt;p class=&#34;md__image&#34;&gt;&#xA;  &lt;img src=&#34;https://erik.wiffin.com/images/data-engineering-101/taco-sales-xlsx.png&#34; alt=&#34;Taco Sales.xlsx&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.&#xA;At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business. I know a little python, and I&amp;rsquo;ve heard it&amp;rsquo;s good at this kind of thing, so I fire up a jupyter notebook and import it into a pandas dataframe.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

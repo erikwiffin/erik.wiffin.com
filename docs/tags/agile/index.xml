@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Agile on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/agile/</link>
-    <description>Recent content in Agile on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Agile on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/agile/</link>
+		<description>Recent content in Agile on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Story Points As Effort &#43; Uncertainty</title>
-      <link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
-      <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Story Points As Effort &#43; Uncertainty</title>
+				<link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
+				<pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
+				<description>&lt;p&gt;The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful. Between these two extremes is where most of us end up; balancing the tradeoffs between accuracy and impracticality. Story points, and the various ceremonies that surround them, are an attempt at striking that balance.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

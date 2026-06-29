@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Books on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/books/</link>
-    <description>Recent content in Books on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Books on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/books/</link>
+		<description>Recent content in Books on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Missing Manual - Professionalism Among Agency Developers</title>
-      <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
-      <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Missing Manual - Professionalism Among Agency Developers</title>
+				<link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
+				<pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
+				<description>&lt;h3 id=&#34;what-does-it-mean-to-be-a-professional-software-developer-at-an-agency&#34;&gt;What does it mean to be a professional software developer at an agency?&lt;/h3&gt;&#xA;&lt;p&gt;If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now. As it happens, I work at a software agency, and have yet to spend more than six months on a single project. At work, we’ve been running a book club, and this discrepancy has made it hard to find books that feel relevant to our situation.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

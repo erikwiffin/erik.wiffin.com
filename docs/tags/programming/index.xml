@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>programming on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/programming/</link>
-    <description>Recent content in programming on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Programming on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/programming/</link>
+		<description>Recent content in Programming on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Your AI Agent is a Distributed System</title>
-      <link>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</guid>
-      <description>Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.&#xA;Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.</description>
-    </item>
-    <item>
-      <title>Building Chart Chat with Plan and Execute</title>
-      <link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</guid>
-      <description>Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.</description>
-    </item>
-    <item>
-      <title>Design Plans: A Reference</title>
-      <link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
-      <description>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.&#xA;What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Your AI Agent is a Distributed System</title>
+				<link>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</link>
+				<pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</guid>
+				<description>Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.&#xA;Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.</description>
+			</item>
+			<item>
+				<title>Building Chart Chat with Plan and Execute</title>
+				<link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
+				<pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</guid>
+				<description>Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.</description>
+			</item>
+			<item>
+				<title>Design Plans: A Reference</title>
+				<link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
+				<pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
+				<description>&lt;p&gt;When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is &lt;em&gt;precisely the wrong thing to do&lt;/em&gt;. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-a-design-plan&#34;&gt;What is a design plan?&lt;/h3&gt;&#xA;&lt;p&gt;A design plan is a short document describing a proposed implementation of a new feature or refactoring. They’re a developer’s equivalent of an artist’s sketch or a writer’s outline. A good design plan will cover three things:&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

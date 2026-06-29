@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Evals on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/evals/</link>
+		<description>Recent content in Evals on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
+</copyright>
+		
+		
+			<lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/evals/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>95% Cheaper, 75% Faster: Tuning an Agent with Pairwise Evals</title>
+				<link>https://erik.wiffin.com/posts/95-cheaper-75-faster-tuning-an-agent-with-pairwise-evals/</link>
+				<pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/95-cheaper-75-faster-tuning-an-agent-with-pairwise-evals/</guid>
+				<description>Pointwise vs. Pairwise LLM Agent evals and how I used a custom eval tool to speed up my agent by 4x and cut costs by 95%.</description>
+			</item>
+	</channel>
+</rss>

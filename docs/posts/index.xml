@@ -1,112 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on erik.wiffin</title>
-    <link>https://erik.wiffin.com/posts/</link>
-    <description>Recent content in Posts on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Posts on erik.wiffin</title>
+		<link>https://erik.wiffin.com/posts/</link>
+		<description>Recent content in Posts on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>You are Failing at AI Because You Haven’t Built a Learning Organization</title>
-      <link>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</link>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</guid>
-      <description>LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.</description>
-    </item>
-    <item>
-      <title>Your AI Agent is a Distributed System</title>
-      <link>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</guid>
-      <description>Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.&#xA;Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.</description>
-    </item>
-    <item>
-      <title>Building Chart Chat with Plan and Execute</title>
-      <link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</guid>
-      <description>Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.</description>
-    </item>
-    <item>
-      <title>Vibecoding Audit</title>
-      <link>https://erik.wiffin.com/posts/vibecoding-audit/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/vibecoding-audit/</guid>
-      <description>I spent the holidays building an event platform with an AI &amp;ldquo;vibecoding&amp;rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.</description>
-    </item>
-    <item>
-      <title>Proof of Thought</title>
-      <link>https://erik.wiffin.com/posts/proof-of-thought/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/proof-of-thought/</guid>
-      <description>With large language models capable of generating convincing documents without real thought, this insightful article explores the critical need for new &amp;ldquo;Proofs of Thought&amp;rdquo; to ensure genuine intellectual engagement and prevent workplace processes from becoming mere facades.</description>
-    </item>
-    <item>
-      <title>Evergreen Links</title>
-      <link>https://erik.wiffin.com/posts/evergreen-links/</link>
-      <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/evergreen-links/</guid>
-      <description>A collection of blog posts and resources that I’ve found useful and frequently refer back to.&#xA;Death by PowerPoint: the slide that killed seven people How to Socialize Big Changes at Work A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture The Ultimate Burnout Guide: Symptoms, Causes, and Prevention The Boy Scout Rule ~Robert C. Martin (Uncle Bob) Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule How Big Tech Runs Tech Projects and the Curious Absence of Scrum Don’t be spooky Scaling Engineering Teams via RFCs: Writing Things Down The Blue Tape List Questions for our first 1:1 How to Do Code Reviews Like a Human How to Make Your Code Reviewer Fall in Love with You The Kindly Brontosaurus World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World Taboo Your Words Making it Virtually Easy to Deploy on Day One The Picasso Principle The Elves Leave Middle Earth – Sodas Are No Longer Free </description>
-    </item>
-    <item>
-      <title>What to do when someone tells you to &#34;take initiative&#34;</title>
-      <link>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</link>
-      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</guid>
-      <description>I have always hated the phrase “Don’t bring me problems, bring me solutions!”. It feels lazy. It incentivizes people to sweep things under the rug if they can’t figure out what to do. It doesn’t give any useful direction to the person bringing you problems, because if they had solutions, they probably would have brought them already! At its best, it’s unhelpful, at its worst, it’s actively harmful.&#xA;I have similar, but less strong issues with the idea of telling someone to “take more initiative”.</description>
-    </item>
-    <item>
-      <title>Limiting Work In Progress as a Manager</title>
-      <link>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</link>
-      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</guid>
-      <description>The demands on a manager&amp;rsquo;s time are endless and sometimes it feels like you&amp;rsquo;re being pulled in every direction at once. These demands can make it hard to focus, they make it hard to move from reacting to problems to anticipating them. In this article, I&amp;rsquo;d like to talk about how I&amp;rsquo;ve limited demands on my time, counterintuitively doing more with less.&#xA;The story The very first thing I learned as a new manager was that if I didn&amp;rsquo;t put a block on my calendar at lunchtime, there was no guarantee that I would eat lunch that day.</description>
-    </item>
-    <item>
-      <title>How to get the most out of your 1:1s</title>
-      <link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</link>
-      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</guid>
-      <description>As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from my perspective, (ex. The Update, The Vent, and The Disaster) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table.</description>
-    </item>
-    <item>
-      <title>Stripe For Outpatient Billing</title>
-      <link>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</link>
-      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</guid>
-      <description>In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.&#xA;The situation Outpatient billing is expensive and unpleasant.&#xA;According to a study published in 2017, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.</description>
-    </item>
-    <item>
-      <title>Data Engineering for Other People</title>
-      <link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
-      <description>Or: Why is this software engineer being so difficult? So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&#xA;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day. At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business.</description>
-    </item>
-    <item>
-      <title>Design Plans: A Reference</title>
-      <link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
-      <description>When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is precisely the wrong thing to do. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.&#xA;What is a design plan? A design plan is a short document describing a proposed implementation of a new feature or refactoring.</description>
-    </item>
-    <item>
-      <title>Story Points As Effort &#43; Uncertainty</title>
-      <link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
-      <description>The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.</description>
-    </item>
-    <item>
-      <title>The Missing Manual - Professionalism Among Agency Developers</title>
-      <link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
-      <description>What does it mean to be a professional software developer at an agency? If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>95% Cheaper, 75% Faster: Tuning an Agent with Pairwise Evals</title>
+				<link>https://erik.wiffin.com/posts/95-cheaper-75-faster-tuning-an-agent-with-pairwise-evals/</link>
+				<pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/95-cheaper-75-faster-tuning-an-agent-with-pairwise-evals/</guid>
+				<description>Pointwise vs. Pairwise LLM Agent evals and how I used a custom eval tool to speed up my agent by 4x and cut costs by 95%.</description>
+			</item>
+			<item>
+				<title>You are Failing at AI Because You Haven’t Built a Learning Organization</title>
+				<link>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</link>
+				<pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</guid>
+				<description>LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.</description>
+			</item>
+			<item>
+				<title>Your AI Agent is a Distributed System</title>
+				<link>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</link>
+				<pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/your-ai-agent-is-a-distributed-system/</guid>
+				<description>Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.&#xA;Reframing it as a distributed system helped me recognize where my problems were coming from and got me going again.</description>
+			</item>
+			<item>
+				<title>Building Chart Chat with Plan and Execute</title>
+				<link>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</link>
+				<pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/building-chart-chat-with-plan-and-execute/</guid>
+				<description>Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.</description>
+			</item>
+			<item>
+				<title>Vibecoding Audit</title>
+				<link>https://erik.wiffin.com/posts/vibecoding-audit/</link>
+				<pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/vibecoding-audit/</guid>
+				<description>I spent the holidays building an event platform with an AI &amp;ldquo;vibecoding&amp;rdquo; tool to see if the results were actually production-ready. While the speed of development was incredible, my audit reveals the critical gaps—from database safety to broken SEO—that still need a human touch before you hit publish.</description>
+			</item>
+			<item>
+				<title>Proof of Thought</title>
+				<link>https://erik.wiffin.com/posts/proof-of-thought/</link>
+				<pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/proof-of-thought/</guid>
+				<description>With large language models capable of generating convincing documents without real thought, this insightful article explores the critical need for new &amp;ldquo;Proofs of Thought&amp;rdquo; to ensure genuine intellectual engagement and prevent workplace processes from becoming mere facades.</description>
+			</item>
+			<item>
+				<title>Evergreen Links</title>
+				<link>https://erik.wiffin.com/posts/evergreen-links/</link>
+				<pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/evergreen-links/</guid>
+				<description>&lt;p&gt;A collection of blog posts and resources that I’ve found useful and frequently refer back to.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx&#34;&gt;Death by PowerPoint: the slide that killed seven people&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chelseatroy.com/2018/02/25/how-to-socialize-big-changes-at-work-part-1-start-at-the-grassroots-level/&#34;&gt;How to Socialize Big Changes at Work&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chelseatroy.com/2018/05/24/why-your-efforts-to-make-your-company-inclusive-arent-working/&#34;&gt;A Rubric for Evaluating Team Members’ Contributions to an Inclusive Culture&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commoncog.com/g/burnout/&#34;&gt;The Ultimate Burnout Guide: Symptoms, Causes, and Prevention&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385&#34;&gt;The Boy Scout Rule ~Robert C. Martin (Uncle Bob)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/nordstroms-employee-handbook-2014-10&#34;&gt;Nordstrom&amp;rsquo;s Employee Handbook Has Only One Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/project-management-at-big-tech/&#34;&gt;How Big Tech Runs Tech Projects and the Curious Absence of Scrum&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://therealadam.com/2021/11/01/dont-be-spooky/&#34;&gt;Don’t be spooky&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/&#34;&gt;Scaling Engineering Teams via RFCs: Writing Things Down&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://randsinrepose.com/archives/the-blue-tape-list/&#34;&gt;The Blue Tape List&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://larahogan.me/blog/first-one-on-one-questions/&#34;&gt;Questions for our first 1:1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mtlynch.io/human-code-reviews-1/&#34;&gt;How to Do Code Reviews Like a Human&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mtlynch.io/code-review-love/&#34;&gt;How to Make Your Code Reviewer Fall in Love with You&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://slate.com/human-interest/2013/08/the-kindly-brontosaurus-the-amazing-prehistoric-posture-that-will-get-you-whatever-you-want.html&#34;&gt;The Kindly Brontosaurus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.industrytap.com/worlds-15-biggest-ships-create-more-pollution-than-all-the-cars-in-the-world&#34;&gt;World’s 15 Biggest Ships Create More Pollution Than All The Cars In The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/WBdvyyHLdxZSAMmoz/taboo-your-words&#34;&gt;Taboo Your Words&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.etsy.com/codeascraft/making-it-virtually-easy-to-deploy-on-day-one/&#34;&gt;Making it Virtually Easy to Deploy on Day One&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.psychotactics.com/the-picasso-principle/&#34;&gt;The Picasso Principle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free/&#34;&gt;The Elves Leave Middle Earth – Sodas Are No Longer Free&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>What to do when someone tells you to &#34;take initiative&#34;</title>
+				<link>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</link>
+				<pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/what-to-do-when-someone-tells-you-to-take-initiative/</guid>
+				<description>&lt;p&gt;I have always hated the phrase “Don’t bring me problems, bring me solutions!”. It feels lazy. It incentivizes people to sweep things under the rug if they can’t figure out what to do. It doesn’t give any useful direction to the person bringing you problems, because if they had solutions, they probably would have brought them already! At its best, it’s unhelpful, at its worst, it’s actively harmful.&lt;/p&gt;&#xA;&lt;p&gt;I have similar, but less strong issues with the idea of telling someone to “take more initiative”. That also feels lazy. Particularly when it’s the answer to someone looking for a promotion or generally looking for more responsibility. If one of my reports comes to me asking what they can do to get promoted, they’re taking more initiative right now! They just don’t know what to do.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Limiting Work In Progress as a Manager</title>
+				<link>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</link>
+				<pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/limiting-work-in-progress-as-a-manager/</guid>
+				<description>&lt;p&gt;The demands on a manager&amp;rsquo;s time are endless and sometimes it feels like you&amp;rsquo;re being pulled in every direction at once. These demands can make it hard to focus, they make it hard to move from &lt;em&gt;reacting&lt;/em&gt; to problems to &lt;em&gt;anticipating&lt;/em&gt; them. In this article, I&amp;rsquo;d like to talk about how I&amp;rsquo;ve limited demands on my time, counterintuitively doing more with less.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-story&#34;&gt;The story&lt;/h2&gt;&#xA;&lt;p&gt;The very first thing I learned as a new manager was that if I didn&amp;rsquo;t put a block on my calendar at lunchtime, there was no guarantee that I would eat lunch that day. As an engineer, I thought I knew what it meant to take a lot of meetings, but my promotion brought with it a torrent of people who wanted to talk to me and had no consideration for how hungry I was getting.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How to get the most out of your 1:1s</title>
+				<link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</link>
+				<pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</guid>
+				<description>&lt;p&gt;As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from &lt;em&gt;my&lt;/em&gt; perspective, (ex. &lt;a href=&#34;https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/&#34;&gt;The Update, The Vent, and The Disaster&lt;/a&gt;) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have &lt;em&gt;a lot&lt;/em&gt; of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Stripe For Outpatient Billing</title>
+				<link>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</link>
+				<pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/stripe-for-outpatient-billing/</guid>
+				<description>&lt;p&gt;In this article, I will explain why I think Stripe should start treating health insurance cards like any other 3.3”x2.1” pieces of plastic with 12 digits on them and take their slice of a $4.1 trillion industry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-situation&#34;&gt;The situation&lt;/h2&gt;&#xA;&lt;p&gt;Outpatient billing is expensive and unpleasant.&lt;/p&gt;&#xA;&lt;p&gt;According to &lt;a href=&#34;https://doi.org/10.7326/M19-2818&#34;&gt;a study published in 2017&lt;/a&gt;, doctors spend 21.8% of gross receipts on it. That means over 20 cents out of every dollar that comes into an outpatient practice gets spent on insurance-related administrative overhead.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Data Engineering for Other People</title>
+				<link>https://erik.wiffin.com/posts/data-engineering-for-other-people/</link>
+				<pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/data-engineering-for-other-people/</guid>
+				<description>&lt;h3 id=&#34;or-why-is-this-software-engineer-being-so-difficult&#34;&gt;Or: Why is this software engineer being so difficult?&lt;/h3&gt;&#xA;&lt;p&gt;So you&amp;rsquo;ve got some data. In my case, I&amp;rsquo;ve been keeping track of how successful my taco truck has been.&lt;/p&gt;&#xA;&lt;p&gt;&lt;p class=&#34;md__image&#34;&gt;&#xA;  &lt;img src=&#34;https://erik.wiffin.com/images/data-engineering-101/taco-sales-xlsx.png&#34; alt=&#34;Taco Sales.xlsx&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s nothing crazy here: a date column, how many of each kind of taco I sold, and where I parked my taco truck that day.&#xA;At this point, I&amp;rsquo;d like to create some sweet visualizations of my data, to better understand the fundamentals of my taco truck business. I know a little python, and I&amp;rsquo;ve heard it&amp;rsquo;s good at this kind of thing, so I fire up a jupyter notebook and import it into a pandas dataframe.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Design Plans: A Reference</title>
+				<link>https://erik.wiffin.com/posts/design-plans-a-reference/</link>
+				<pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/design-plans-a-reference/</guid>
+				<description>&lt;p&gt;When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is &lt;em&gt;precisely the wrong thing to do&lt;/em&gt;. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-a-design-plan&#34;&gt;What is a design plan?&lt;/h3&gt;&#xA;&lt;p&gt;A design plan is a short document describing a proposed implementation of a new feature or refactoring. They’re a developer’s equivalent of an artist’s sketch or a writer’s outline. A good design plan will cover three things:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Story Points As Effort &#43; Uncertainty</title>
+				<link>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</link>
+				<pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/</guid>
+				<description>&lt;p&gt;The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful. Between these two extremes is where most of us end up; balancing the tradeoffs between accuracy and impracticality. Story points, and the various ceremonies that surround them, are an attempt at striking that balance.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Missing Manual - Professionalism Among Agency Developers</title>
+				<link>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</link>
+				<pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/missing-manual-professionalism-among-agency-developers/</guid>
+				<description>&lt;h3 id=&#34;what-does-it-mean-to-be-a-professional-software-developer-at-an-agency&#34;&gt;What does it mean to be a professional software developer at an agency?&lt;/h3&gt;&#xA;&lt;p&gt;If you’re familiar with some of the big names in books about software design - books like Design Patterns, Code Complete, Domain-Driven Design - you may have noticed that they all share a particular assumption: you are working at a product company, on a single codebase, and there is a good chance you will be working on that same codebase five years from now. As it happens, I work at a software agency, and have yet to spend more than six months on a single project. At work, we’ve been running a book club, and this discrepancy has made it hard to find books that feel relevant to our situation.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

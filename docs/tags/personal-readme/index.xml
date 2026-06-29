@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>personal readme on erik.wiffin</title>
-    <link>https://erik.wiffin.com/tags/personal-readme/</link>
-    <description>Recent content in personal readme on erik.wiffin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Erik Wiffin 2026.
+	<channel>
+		<title>Personal Readme on erik.wiffin</title>
+		<link>https://erik.wiffin.com/tags/personal-readme/</link>
+		<description>Recent content in Personal Readme on erik.wiffin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&amp;copy; Erik Wiffin 2026.
 </copyright>
-    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erik.wiffin.com/tags/personal-readme/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to get the most out of your 1:1s</title>
-      <link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</link>
-      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</guid>
-      <description>As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from my perspective, (ex. The Update, The Vent, and The Disaster) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table.</description>
-    </item>
-  </channel>
+		
+		
+			<lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://erik.wiffin.com/tags/personal-readme/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to get the most out of your 1:1s</title>
+				<link>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</link>
+				<pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>https://erik.wiffin.com/posts/how-to-get-the-most-out-of-your-11s/</guid>
+				<description>&lt;p&gt;As a Director of Engineering, I have monthly 1:1s with all of my direct reports. A 1:1 (one-on-one) is a recurring meeting with no set agenda between a manager and one of their reports. The internet is full of valuable insight into how to run them from &lt;em&gt;my&lt;/em&gt; perspective, (ex. &lt;a href=&#34;https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/&#34;&gt;The Update, The Vent, and The Disaster&lt;/a&gt;) but somewhat more limited in advice on how to make the most of them if you’re on the other side of the table. At Devetry, we run pretty flat, so I have &lt;em&gt;a lot&lt;/em&gt; of direct reports, and we only meet once a month. Many people will work more closely with their manager, or meet more frequently, so some of this advice won’t transfer, but hopefully there’s still a few useful nuggets of wisdom.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

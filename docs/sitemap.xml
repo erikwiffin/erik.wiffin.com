@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://erik.wiffin.com/tags/ai/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <loc>https://erik.wiffin.com/posts/95-cheaper-75-faster-tuning-an-agent-with-pairwise-evals/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/tags/chart-chat/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <loc>https://erik.wiffin.com/tags/agentic-software/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/ai/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/evals/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/generative-ai/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/llms/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/posts/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://erik.wiffin.com/tags/chart-chat/</loc>
     <lastmod>2026-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/management/</loc>
     <lastmod>2026-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://erik.wiffin.com/posts/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://erik.wiffin.com/tags/strategy/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/</loc>
     <lastmod>2026-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/</loc>
     <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/agentic-software/</loc>
-    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://erik.wiffin.com/tags/generative-ai/</loc>
-    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://erik.wiffin.com/tags/plan-and-execute/</loc>
     <lastmod>2026-04-06T00:00:00+00:00</lastmod>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
@@ -24,19 +24,22 @@
   <meta property="og:type" content="website" />
   
   
-  <meta name="generator" content="Hugo 0.121.2">
+  <meta name="generator" content="Hugo 0.163.3">
   
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8GNFJ4CPT"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-N8GNFJ4CPT', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8GNFJ4CPT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-N8GNFJ4CPT');
+        }
+      </script>
   
 
   <link rel="stylesheet" href="https://erik.wiffin.com/css/style.css" />
@@ -97,7 +100,8 @@ If you'd like to contact me directly, you can reach me at <a href="mailto:erik.w
   </header>
   <section>
     <div class="c-article__summary">
-      The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful.
+      The only way to perfectly estimate how long a task will take, is to do the task and measure how long it took. In most situations where you’re endeavoring to produce an estimate, this is not a practical way of providing it. At the other end of the spectrum, you can pick a random number and base your timeline on that. While this is a quick and easy way of coming up with an estimate, it is rarely helpful. Between these two extremes is where most of us end up; balancing the tradeoffs between accuracy and impracticality. Story points, and the various ceremonies that surround them, are an attempt at striking that balance.
+
     </div>
     <a href="https://erik.wiffin.com/posts/story-points-as-effort--uncertainty/" class="c-article__btn p-list-article__btn">Read more</a>
   </section>

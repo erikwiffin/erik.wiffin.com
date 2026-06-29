@@ -152,6 +152,19 @@
 }
 
 /**
+ * Tables
+ */
+th, td {
+  white-space: nowrap;
+}
+table caption {
+  caption-side: bottom;
+  font-size: 14px;
+  padding: 8px;
+  text-align: left;
+}
+
+/**
  * Misc
  * */
 img.float-right {
