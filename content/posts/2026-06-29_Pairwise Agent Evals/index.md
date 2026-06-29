@@ -7,7 +7,7 @@ tags:
   - Generative AI
   - LLMs
   - Evals
-thumbnail: /images/evail-ui.png
+thumbnail: /images/eval-ui.png
 summary: |
   Pointwise vs. Pairwise LLM Agent evals and how I used a custom eval tool to speed up my agent by 4x and cut costs by 95%.
 ---
