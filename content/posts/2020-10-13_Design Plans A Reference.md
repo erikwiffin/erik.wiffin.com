@@ -2,9 +2,9 @@
 title: "Design Plans: A Reference"
 date: 2020-10-13
 tags:
-  - design
-  - move slow to go fast
-  - programming
+  - Design
+  - Move Slow to Go Fast
+  - Programming
 thumbnail: "/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg"
 ---
 When confronted with a complicated task, the first response of any developer is to dive in and start coding. This is _precisely the wrong thing to do_. I might sound hyperbolic, but it’s true. Every single design plan I have ever seen has resulted in a better understanding of the problem, and more importantly, a better solution delivered faster.

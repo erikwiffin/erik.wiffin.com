@@ -2,13 +2,13 @@
 title: "Your AI Agent is a Distributed System"
 date: 2026-04-06
 tags:
-  - chart chat
-  - generative-ai
+  - Chart Chat
+  - Generative AI
   - LLMs
-  - plan-and-execute
-  - software patterns
-  - agentic software
-  - programming
+  - Plan and Execute
+  - Software Patterns
+  - Agentic Software
+  - Programming
 thumbnail: "/images/distributed-system.png"
 summary: |
   Mid-way through building an agentic application, I got stuck. I found myself needing to make it work, make it right, and make it fast, all at once, and progress was slow.

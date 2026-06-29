@@ -3,11 +3,11 @@ title: "95% Cheaper, 75% Faster: Tuning an Agent with Pairwise Evals"
 date: 2026-06-29
 tags:
   - AI
-  - agentic software
-  - generative-ai
+  - Agentic Software
+  - Generative AI
   - LLMs
-  - evals
-thumbnail: /images/evail-ui.jpg
+  - Evals
+thumbnail: /images/evail-ui.png
 summary: |
   Pointwise vs. Pairwise LLM Agent evals and how I used a custom eval tool to speed up my agent by 4x and cut costs by 95%.
 ---

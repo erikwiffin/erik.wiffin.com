@@ -5,8 +5,8 @@ date: 2024-11-15
 tags:
 - AI
 - ML
-- case study
-- healthcare
+- Case Study
+- Healthcare
 thumbnail: /images/irwan-rbDE93-0hHs-unsplash.jpg
 type: page
 ---

@@ -2,13 +2,13 @@
 title: "Building Chart Chat with Plan and Execute"
 date: 2026-03-30
 tags:
-  - chart chat
-  - generative-ai
+  - Chart Chat
+  - Generative AI
   - LLMs
-  - plan-and-execute
-  - software patterns
-  - agentic software
-  - programming
+  - Plan and Execute
+  - Software Patterns
+  - Agentic Software
+  - Programming
 thumbnail: "/images/plan-and-execute-diagram.png"
 summary: |
   Observability, tool design, and model selection are harder than the orchestration loop. Lessons from building an agentic charting tool with Plan and Execute.

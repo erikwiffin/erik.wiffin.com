@@ -2,11 +2,11 @@
 title: "Data Engineering for Other People"
 date: 2020-10-13
 tags:
-  - data
-  - data engineering
-  - python
-  - pandas
-  - reference
+  - Data
+  - Data Engineering
+  - Python
+  - Pandas
+  - Reference
 thumbnail: "/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg"
 ---
 ### Or: Why is this software engineer being so difficult?

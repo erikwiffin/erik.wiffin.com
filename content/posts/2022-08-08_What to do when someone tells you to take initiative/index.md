@@ -2,9 +2,9 @@
 title: What to do when someone tells you to "take initiative"
 date: 2022-08-08
 tags:
-  - management
-  - responsibility
-  - initiative
+  - Management
+  - Responsibility
+  - Initiative
 thumbnail: "/images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg"
 ---
 

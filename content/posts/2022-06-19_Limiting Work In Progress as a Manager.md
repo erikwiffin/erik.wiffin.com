@@ -2,11 +2,11 @@
 title: "Limiting Work In Progress as a Manager"
 date: 2022-06-19
 tags:
-  - management
-  - calendars
-  - meetings
-  - productivity
-  - work-life balance
+  - Management
+  - Calendars
+  - Meetings
+  - Productivity
+  - Work-Life Balance
 thumbnail: "/images/windows-SwHvzwEzCfA-unsplash.jpg"
 ---
 The demands on a manager's time are endless and sometimes it feels like you're being pulled in every direction at once. These demands can make it hard to focus, they make it hard to move from _reacting_ to problems to _anticipating_ them. In this article, I'd like to talk about how I've limited demands on my time, counterintuitively doing more with less.

@@ -3,10 +3,10 @@ title: "Proof of Thought"
 date: 2024-05-21
 tags:
   - LLMs
-  - generative-ai
-  - meetings
-  - management
-  - reference
+  - Generative AI
+  - Meetings
+  - Management
+  - Reference
 thumbnail: "/images/proof-of-thought.png"
 summary: |
   With large language models capable of generating convincing documents without real thought, this insightful article explores the critical need for new "Proofs of Thought" to ensure genuine intellectual engagement and prevent workplace processes from becoming mere facades.

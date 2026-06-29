@@ -2,11 +2,11 @@
 title: "You are Failing at AI Because You Haven’t Built a Learning Organization"
 date: 2026-05-25
 tags:
-  - chart chat
+  - Chart Chat
   - AI
   - LLMs
-  - management
-  - strategy
+  - Management
+  - Strategy
 summary: |
   LLMs have broken the traditional software playbook: demos are misleading, expertise is shifting too fast to hire for, and the conditions surrounding AI adoption are the worst possible for building the learning organization you actually need.
 ---

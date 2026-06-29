@@ -2,10 +2,10 @@
 title: "How to get the most out of your 1:1s"
 date: 2022-03-06
 tags:
-  - management
+  - Management
   - 1:1s
-  - meetings
-  - personal readme
+  - Meetings
+  - Personal Readme
 thumbnail: "/images/avel-chuklanov-9OWS4lT5iqQ-unsplash.jpg"
 ---
 
